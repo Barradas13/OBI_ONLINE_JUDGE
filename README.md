@@ -1,0 +1,1 @@
+# OBI_ONLINE_JUDGE
