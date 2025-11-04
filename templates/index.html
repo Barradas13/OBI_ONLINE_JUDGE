@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Bem-vindo ao OBI Online Judge</h2>
+<p>Pratique problemas de programação da Olimpíada Brasileira de Informática (OBI) aqui!</p>
+
+<h3>Anos Disponíveis:</h3>
+
+<ul>
+    {% for ano, fases in anos.items() %}
+        <li>
+            <button onclick="toggle('{{ ano }}')">{{ ano }}</button>
+            <ul id="{{ ano }}" style="display: none; margin-left: 20px;">
+                {% for fase, problemas in fases.items() %}
+                    <li>
+                        <button onclick="toggle('{{ ano }}-{{ fase }}')">{{ fase }}</button>
+                        <ul id="{{ ano }}-{{ fase }}" style="display: none; margin-left: 20px;">
+                            {% for problema in problemas %}
+                            <li><a href="{{ url_for('ir_para_problema', ano=ano, fase=fase, problema=problema) }}">{{ problema }}</a></li>
+                            {% endfor %}
+                        </ul>
+                    </li>
+                {% endfor %}
+            </ul>
+        </li>
+    {% endfor %}
+</ul>
+
+<script>
+function toggle(id) {
+    const el = document.getElementById(id);
+    el.style.display = (el.style.display === "none") ? "block" : "none";
+}
+</script>
+{% endblock %}

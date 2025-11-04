@@ -1,11 +1,8 @@
 import os
-import time
-import hashlib
-from urllib.parse import urljoin, urlparse
+from urllib.parse import urljoin
 import requests
 from bs4 import BeautifulSoup
 from tqdm import tqdm
-from extract_obi_pdf import pdf_scrap
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (compatible; OBIJudgeBot/1.0; +https://github.com/felipebarradas)"
@@ -62,8 +59,13 @@ def scrape_obi():
     CAMINHOS = pegandoCaminhos()
     
     for caminho in CAMINHOS:
+        
+        ANO = caminho[caminho.find("OBI") + 3: caminho.find("OBI") + 7]
+        FASE = caminho[caminho.find("fase"): caminho.find("fase") + 6] if "fase" in caminho else "fase1"
+        FASE = FASE.replace("/", "").strip()
+
         try:
-            print("[INFO] Acessando:", caminho)
+            # PEGA A PAGINA E PASSA PELOS LINKS
             response = requests.get(caminho, headers=HEADERS, timeout=10)
             response.raise_for_status()
             soup = BeautifulSoup(response.text, "html.parser")
@@ -88,28 +90,17 @@ def scrape_obi():
                         nome = nome.split("_")[1]
                     GABARITOS[nome.lower()] = file_url
 
-            # Extrair ano e fase
-            ANO = caminho[caminho.find("OBI") + 3: caminho.find("OBI") + 7]
-            FASE = caminho[caminho.find("fase"): caminho.find("fase") + 6] if "fase" in caminho else "fase1"
-            FASE = FASE.replace("/", "").strip()  # 🔧 remove qualquer barra ou espaço extra
-
-            print(GABARITOS)
-
             # Criar pasta do ano
-            ano_dir = os.path.join("./webScrap/downloads/problems", ANO)
+            ano_dir = os.path.join("./static/problems", ANO)
             os.makedirs(ano_dir, exist_ok=True)
-
-            # Baixar e processar PDF
-            print(f"[INFO] Baixando PDF {PDF}")
+            
+            # Baixar PDF
             pdf_path = download_file(PDF, ano_dir, f"OBI{ANO}_{FASE}.pdf")
 
-            print(f"ANO: {ANO} | FASE: {FASE}")
-            print(f"[INFO] PDF salvo em {pdf_path}")
-
+            # Baixar gabaritos
             for nome, url in GABARITOS.items():
-                nome_limpo = nome.replace("/", "_")  # 🔧 segurança extra para nomes com barra
+                nome_limpo = nome.replace("/", "_")
                 destino_nome = f"{nome_limpo}_{ANO}_{FASE}_gabarito.zip"
-                print(f"[INFO] Baixando gabarito {destino_nome} em {ano_dir}")
                 download_file(url, ano_dir, destino_nome)
 
         except Exception as e:

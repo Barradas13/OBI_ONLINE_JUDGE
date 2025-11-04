@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Problema {{ problema }}</h2>
+<p>Abaixo segue o PDF da fase {{ fase }} do ano {{ ano }}.</p>
+
+<iframe src="https://olimpiada.ic.unicamp.br/static/extras/obi2016/provas/ProvaOBI2016_f2pu.pdf" width="100%" height="600px"></iframe>
+
+<h3>Envie seu código aqui:</h3>
+<textarea style="width:100%; height:200px;"></textarea>
+
+<button>Enviar</button>
+{% endblock %}
