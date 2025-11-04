@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}{{ problem.title }}{% endblock %}
+{% block content %}
+  <h2>{{ problem.title }}</h2>
+  <p>{{ problem.statement }}</p>
+  <h3>Entrada</h3><p>{{ problem.input }}</p>
+  <h3>Saída</h3><p>{{ problem.output }}</p>
+  <h3>Exemplo</h3>
+  <pre>Entrada: {{ problem.example_input }}
+Saída: {{ problem.example_output }}</pre>
+{% endblock %}
