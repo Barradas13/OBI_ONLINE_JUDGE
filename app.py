@@ -1,38 +1,64 @@
 from flask import Flask, render_template, url_for
 import os
+import re
 
 app = Flask(__name__)
 
 @app.route("/")
 def index():
-    files = os.listdir("static/problems")
+    base_dir = "static/problems"
     anos = {}
 
-    files.sort()
-    for ano in files:
+    for ano in sorted(os.listdir(base_dir)):
+        ano_path = os.path.join(base_dir, ano)
+        if not os.path.isdir(ano_path):
+            continue
+
         anos[ano] = {}
-        for raiz, pastas, arquivos in os.walk(f"./static/problems/{ano}"):
-            for arquivo in arquivos:
+
+        # percorre os níveis (p1, p2, etc)
+        for nivel in sorted(os.listdir(ano_path)):
+            nivel_path = os.path.join(ano_path, nivel)
+            if not os.path.isdir(nivel_path):
+                continue
+
+            for arquivo in os.listdir(nivel_path):
                 if arquivo.endswith(".pdf"):
-                    anos[ano][arquivo.split("_")[1][:-4]] = []
-        for raiz, pastas, arquivos in os.walk(f"./static/problems/{ano}"):
-            for arquivo in arquivos:
-                if arquivo.endswith(".zip"):
-                    fase = arquivo.split("_")[2]
-                    anos[ano].setdefault(fase, []).append(arquivo.split("_")[0])
-    
+
+                    fase = arquivo.split("_")[1]
+
+                    if fase not in anos[ano]:
+                        anos[ano][fase] = {}
+                    if nivel not in anos[ano][fase]:
+                        anos[ano][fase][nivel] = []
+            
+            for arquivo in os.listdir(nivel_path):
+                if arquivo.endswith(".zip"):    
+                    problema = os.path.splitext(arquivo)[0]
+                    
+                    fase = problema.split("_")[2]
+
+                    try:
+                        anos[ano][fase][nivel].append(arquivo)
+                    except:
+                        anos[ano][fase][nivel] = []
+                        anos[ano][fase][nivel].append(arquivo)
+
+
     return render_template("index.html", anos=anos)
 
 
-@app.route("/<ano>/<fase>/<problema>")
-def ir_para_problema(ano, fase, problema):
-    # Gera os caminhos certos usando url_for('static')
-    pdf_url = url_for('static', filename=f"problems/{ano}/OBI{ano}_{fase}.pdf")
-    zip_url = url_for('static', filename=f"problems/{ano}/{problema}_{ano}_{fase}_gabarito.pdf")
+@app.route("/<ano>/<fase>/<nivel>/<problema>")
+def ir_para_problema(ano, fase, nivel, problema):
+    # Gera caminhos usando url_for('static')
+    pdf_url = url_for('static', filename=f"problems/{ano}/{nivel}/OBI{ano}_{fase}_{nivel.upper()}.pdf")
+    zip_url = url_for('static', filename=f"problems/{ano}/{nivel}/{problema}.zip")
 
-    print(pdf_url)  # só pra depurar
-    return render_template("problems.html", ano=ano, fase=fase, problema=problema,
-                           pdf_url=pdf_url, zip_url=zip_url)
+    return render_template(
+        "problems.html",
+        ano=ano, fase=fase, nivel=nivel, problema=problema,
+        pdf_url=pdf_url, zip_url=zip_url
+    )
 
 
 if __name__ == "__main__":

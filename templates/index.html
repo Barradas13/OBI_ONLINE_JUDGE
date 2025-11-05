@@ -4,6 +4,21 @@
 <h2>Bem-vindo ao OBI Online Judge</h2>
 <p>Pratique problemas de programação da Olimpíada Brasileira de Informática (OBI) aqui!</p>
 
+<hr>
+
+<!-- 🔍 Campo de busca -->
+<input 
+    type="text" 
+    id="searchBox" 
+    placeholder="Pesquise por nome do problema, ano, fase ou nível..." 
+    style="width: 100%; padding: 8px; font-size: 16px; border-radius: 8px; border: 1px solid #ccc; margin-bottom: 15px;"
+>
+
+<!-- Resultados da busca -->
+<ul id="searchResults" style="list-style: none; padding-left: 0;"></ul>
+
+<hr>
+
 <h3>Anos Disponíveis:</h3>
 
 <ul>
@@ -11,12 +26,24 @@
         <li>
             <button onclick="toggle('{{ ano }}')">{{ ano }}</button>
             <ul id="{{ ano }}" style="display: none; margin-left: 20px;">
-                {% for fase, problemas in fases.items() %}
+                {% for fase, niveis in fases.items() %}
                     <li>
                         <button onclick="toggle('{{ ano }}-{{ fase }}')">{{ fase }}</button>
                         <ul id="{{ ano }}-{{ fase }}" style="display: none; margin-left: 20px;">
-                            {% for problema in problemas %}
-                            <li><a href="{{ url_for('ir_para_problema', ano=ano, fase=fase, problema=problema) }}">{{ problema }}</a></li>
+                            {% for nivel, problemas in niveis.items() %}
+                                <li>
+                                    <button onclick="toggle('{{ ano }}-{{ fase }}-{{ nivel }}')">Nível {{ nivel|replace('p', '') }}</button>
+                                    <ul id="{{ ano }}-{{ fase }}-{{ nivel }}" style="display: none; margin-left: 20px;">
+                                        {% for problema in problemas %}
+                                            <li>
+                                                <a href="{{ url_for('ir_para_problema', ano=ano, fase=fase, nivel=nivel, problema=problema) }}" 
+                                                   data-search="{{ problema }} {{ ano }} {{ fase }} {{ nivel }}">
+                                                    {{ problema }}
+                                                </a>
+                                            </li>
+                                        {% endfor %}
+                                    </ul>
+                                </li>
                             {% endfor %}
                         </ul>
                     </li>
@@ -31,5 +58,38 @@ function toggle(id) {
     const el = document.getElementById(id);
     el.style.display = (el.style.display === "none") ? "block" : "none";
 }
+
+// 🔎 Busca dinâmica
+const searchBox = document.getElementById("searchBox");
+const searchResults = document.getElementById("searchResults");
+
+// Coletar todos os links de problemas
+const problemLinks = Array.from(document.querySelectorAll('a[data-search]')).map(link => ({
+    text: link.dataset.search.toLowerCase(),
+    href: link.href,
+    name: link.textContent
+}));
+
+searchBox.addEventListener("input", () => {
+    const query = searchBox.value.toLowerCase().trim();
+    searchResults.innerHTML = "";
+
+    if (query.length === 0) return; // se a busca estiver vazia, não mostra nada
+
+    const filtered = problemLinks.filter(p => p.text.includes(query));
+
+    if (filtered.length === 0) {
+        searchResults.innerHTML = "<li>Nenhum problema encontrado.</li>";
+        return;
+    }
+
+    // mostra até 20 resultados
+    filtered.slice(0, 20).forEach(p => {
+        const li = document.createElement("li");
+        li.innerHTML = `<a href="${p.href}" style="text-decoration:none;">${p.name}</a>`;
+        li.style.padding = "4px 0";
+        searchResults.appendChild(li);
+    });
+});
 </script>
 {% endblock %}

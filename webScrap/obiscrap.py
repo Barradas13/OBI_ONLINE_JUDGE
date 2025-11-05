@@ -71,7 +71,7 @@ def scrape_obi():
             soup = BeautifulSoup(response.text, "html.parser")
             links = soup.find_all("a")
 
-            PDF = ""
+            PDF = []
             GABARITOS = {}
 
             for link in links:
@@ -81,27 +81,35 @@ def scrape_obi():
 
                 file_url = urljoin(caminho, href)
 
+                if file_url.find("p1") != -1:
+                    NIVEL = "P1"
+                elif file_url.find("p2") != -1:
+                    NIVEL = "P2"
+                elif file_url.find("pu") != -1:
+                    NIVEL = "PU"
+                else:
+                    continue
+
+                ano_dir = os.path.join("./static/problems", ANO)
+                nivel_dir = os.path.join(f"./static/problems/{ANO}", NIVEL)
+
+                os.makedirs(ano_dir, exist_ok=True)
+                os.makedirs(nivel_dir, exist_ok=True)
+
                 if href.endswith(".pdf"):
-                    PDF = file_url
+
+                    download_file(file_url, nivel_dir, f"OBI{ANO}_{FASE}_{NIVEL}.pdf")
+
                 elif href.endswith(".zip") or href.endswith(".rar"):
                     nome = os.path.basename(href)
                     nome = nome.replace(".zip", "").replace(".rar", "")
+
                     if "_" in nome:
                         nome = nome.split("_")[1]
-                    GABARITOS[nome.lower()] = file_url
 
-            # Criar pasta do ano
-            ano_dir = os.path.join("./static/problems", ANO)
-            os.makedirs(ano_dir, exist_ok=True)
-            
-            # Baixar PDF
-            pdf_path = download_file(PDF, ano_dir, f"OBI{ANO}_{FASE}.pdf")
-
-            # Baixar gabaritos
-            for nome, url in GABARITOS.items():
-                nome_limpo = nome.replace("/", "_")
-                destino_nome = f"{nome_limpo}_{ANO}_{FASE}_gabarito.zip"
-                download_file(url, ano_dir, destino_nome)
+                    nome_limpo = nome.replace("/", "_")
+                    destino_nome = f"{nome_limpo}_{ANO}_{FASE}_{NIVEL}_gabarito.zip"
+                    download_file(file_url, nivel_dir, destino_nome)
 
         except Exception as e:
             print(f"[ERRO] Falha ao acessar {caminho}: {e}")

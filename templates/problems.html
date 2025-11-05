@@ -1,13 +1,38 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h2>Problema {{ problema }}</h2>
-<p>Abaixo segue o PDF da fase {{ fase }} do ano {{ ano }}.</p>
+<h2>Problema: {{ problema }}</h2>
+<p>Fase {{ fase|upper }} – Ano {{ ano }} – Nível {{ nivel|replace('p', '') }}</p>
 
-<iframe src="https://olimpiada.ic.unicamp.br/static/extras/obi2016/provas/ProvaOBI2016_f2pu.pdf" width="100%" height="600px"></iframe>
+<hr>
 
-<h3>Envie seu código aqui:</h3>
-<textarea style="width:100%; height:200px;"></textarea>
+<h3>Enunciado</h3>
+<iframe 
+    src="{{ pdf_url }}" 
+    width="100%" 
+    height="600px" 
+    style="border: 1px solid #ccc; border-radius: 8px;">
+</iframe>
 
-<button>Enviar</button>
+<hr>
+
+<h3>Envie seu código</h3>
+<textarea id="codigo" name="codigo" style="width:100%; height:200px; font-family: monospace;"></textarea>
+
+<div style="margin-top: 10px;">
+    <button onclick="enviarCodigo()" class="btn btn-success">Enviar</button>
+</div>
+
+<script>
+function enviarCodigo() {
+    const codigo = document.getElementById('codigo').value.trim();
+    if (!codigo) {
+        alert("Por favor, insira o código antes de enviar!");
+        return;
+    }
+
+    // futuramente você pode fazer um POST com fetch()
+    alert("Código enviado com sucesso! (Simulação)");
+}
+</script>
 {% endblock %}
