@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OBI JUDGE</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>OBI JUDGE</h1>
+
+    <label for="exercise">Exercises:</label>
+    <select id="exercise">
+      <option value="exercise1.zip">Exercise 1</option>
+      <option value="exercise2.zip">Exercise 2</option>
+    </select>
+
+    <label for="language">Language:</label>
+    <select id="language"></select>
+
+    <label for="code">Source Code</label>
+    <textarea id="code"></textarea>
+
+    <button id="runButton">Run tests</button>
+
+    <div id="results"></div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
