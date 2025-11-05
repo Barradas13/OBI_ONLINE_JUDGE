@@ -16,23 +16,72 @@
 
 <hr>
 
+<div style="margin-top: 12px;">
+  <label for="language">Linguagem:</label>
+  <select id="language" required>
+    <option value="py" selected>Python 3 (.py)</option>
+    <option value="c">C (.c)</option>
+    <option value="cpp">C++ (.cpp)</option>
+    <option value="java">Java (.java)</option>
+    <option value="pas">Pascal (.pas)</option>
+    <option value="js">Javascript (.js)</option>
+  </select>
+</div>
+
+
 <h3>Envie seu código</h3>
 <textarea id="codigo" name="codigo" style="width:100%; height:200px; font-family: monospace;"></textarea>
 
-<div style="margin-top: 10px;">
+<div style="margin-top: 15px;">
+    <label>Limite de tempo (segundos):</label>
+    <input type="number" id="limiteTempo" min="1" max="10" value="1" required>
+    <br>
+    <label>Limite de memória (MB):</label>
+    <input type="number" id="limiteMemoria" min="16" max="1024" value="256" required>
+</div>
+
+<div style="margin-top: 15px;">
     <button onclick="enviarCodigo()" class="btn btn-success">Enviar</button>
 </div>
 
 <script>
 function enviarCodigo() {
     const codigo = document.getElementById('codigo').value.trim();
+    const limiteTempo = Number(document.getElementById('limiteTempo').value);
+    const limiteMemoria = Number(document.getElementById('limiteMemoria').value);
+    const linguagem = document.getElementById('language').value;
+
+    if (!linguagem) {
+        alert("Por favor, insira uma linguagem antes de enviar!");
+        return;
+    }
+
     if (!codigo) {
         alert("Por favor, insira o código antes de enviar!");
         return;
     }
 
-    // futuramente você pode fazer um POST com fetch()
-    alert("Código enviado com sucesso! (Simulação)");
+    if (
+        isNaN(limiteTempo) || isNaN(limiteMemoria) ||
+        limiteTempo < 1 || limiteTempo > 10 ||
+        limiteMemoria < 16 || limiteMemoria > 1024
+    ) {
+        alert("Os limites devem estar entre 1–10 segundos e 16–1024 MB!");
+        return;
+    }
+
+    const tempoInput = document.getElementById('limiteTempo');
+    const memoriaInput = document.getElementById('limiteMemoria');
+    tempoInput.value = Math.max(1, Math.min(limiteTempo, 10));
+    memoriaInput.value = Math.max(16, Math.min(limiteMemoria, 1024));
+
+    // (opcional) registrar no servidor
+    alert("Código enviado com sucesso!\n" +
+          "Tempo: " + tempoInput.value + "s\n" +
+          "Memória: " + memoriaInput.value + "MB");
+
+    // JAO SEU TRABALHO COMEÇA AQ
+    
 }
 </script>
 {% endblock %}
