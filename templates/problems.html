@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block content %}
-<h2>Problema: {{ problema }}</h2>
+<h2>Problema: {{ problema|replace("_", " ")|replace(".zip", "")|replace("gabarito", "")|upper }}</h2>
 <p>Fase {{ fase|upper }} – Ano {{ ano }} – Nível {{ nivel|replace('p', '') }}</p>
 
 <hr>
