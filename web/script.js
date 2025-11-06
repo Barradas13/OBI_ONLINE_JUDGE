@@ -1,4 +1,4 @@
-const JUDGE0_URL = "https://api.judge0.com";
+const JUDGE0_URL = "https://judge.darlon.com.br";
 
 function toBase64(str) {
   return btoa(unescape(encodeURIComponent(str)));
@@ -27,9 +27,9 @@ loadLanguages();
 document.getElementById("runButton").addEventListener("click", async () => {
   const sourceCode = document.getElementById("code").value.trim();
   const languageId = document.getElementById("language").value;
-  const exercise = document.getElementById("exercise").value;
+  //const exercise = document.getElementById("exercise").value;
   const resultsDiv = document.getElementById("results");
-  resultsDiv.innerHTML = "Baixando e testando...";
+  resultsDiv.innerHTML = "<h3>Baixando e testando...<h3>";
 
   if (!sourceCode || !languageId) {
     alert("Selecione uma linguagem e insira o código.");
@@ -37,16 +37,14 @@ document.getElementById("runButton").addEventListener("click", async () => {
   }
 
   try {
-    // 1️⃣ Baixar o ZIP do servidor
-    const zipUrl = `./tests/${exercise}`; // ex: /tests/exercise1.zip
+    const zipUrl = `../obiteste/2024f1pj_ogro.zip`; // ex: /tests/exercise1.zip
     const resp = await fetch(zipUrl);
     const blob = await resp.blob();
 
-    // 2️⃣ Ler e descompactar o ZIP
     const zip = await JSZip.loadAsync(blob);
     const files = Object.keys(zip.files);
     const inFiles = files.filter(f => f.endsWith(".in")).sort();
-    const outFiles = files.filter(f => f.endsWith(".out")).sort();
+    const outFiles = files.filter(f => f.endsWith(".sol")).sort();
 
     let passed = 0;
     let total = inFiles.length;
@@ -57,7 +55,6 @@ document.getElementById("runButton").addEventListener("click", async () => {
       const input = await zip.file(inFiles[i]).async("string");
       const expected = (await zip.file(outFiles[i]).async("string")).trim();
 
-      // 3️⃣ Enviar o código para o Judge0
       const payload = {
         source_code: toBase64(sourceCode),
         stdin: toBase64(input),
@@ -76,12 +73,12 @@ document.getElementById("runButton").addEventListener("click", async () => {
       const output = fromBase64(result.stdout || "").trim();
       const status = result.status?.description || "Erro";
 
-      const ok = output === expected ? "✅ OK" : "❌ Falhou";
-      if (ok === "✅ OK") passed++;
+      //const ok = output === expected ? "✅ OK" : "❌ Falhou";
+      if (output === expected) passed++;
 
       const caseDiv = document.createElement("div");
       caseDiv.innerHTML = `
-        <b>Teste ${i+1}:</b> ${ok} <br>
+        <b>Teste ${i+1}:</b> ${passed} <br>
         <i>Status:</i> ${status} <br>
         <i>Esperado:</i> <pre>${expected}</pre>
         <i>Obtido:</i> <pre>${output}</pre>
@@ -90,7 +87,8 @@ document.getElementById("runButton").addEventListener("click", async () => {
       resultsDiv.appendChild(caseDiv);
     }
 
-    resultsDiv.innerHTML = `<h3>Resultado final: ${passed}/${total} casos corretos</h3>` + resultsDiv.innerHTML;
+    resultsDiv.querySelector("h3").remove();
+    resultsDiv.innerHTML = `<h2>Resultado final: ${passed}/${total} casos corretos</h2>` + resultsDiv.innerHTML;
   } catch (error) {
     console.error(error);
     resultsDiv.textContent = "Erro ao executar testes.";
