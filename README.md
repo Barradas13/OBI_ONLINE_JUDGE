@@ -47,8 +47,8 @@ poetry install
 ### 3. Run the Application 
 
 ```bash
-poetry python3 webScrap/obiscrap.py // TO SCRAP THE PDFs and ZIPs
-poetry python3 app.py
+poetry run python3 webScrap/obiscrap.py // TO SCRAP THE PDFs and ZIPs
+poetry run python3 app.py
 ```
 
 Once running, the web interface will be available at:
