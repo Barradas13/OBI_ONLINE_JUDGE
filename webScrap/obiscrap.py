@@ -87,6 +87,8 @@ def scrape_obi():
                     NIVEL = "P2"
                 elif file_url.find("pu") != -1:
                     NIVEL = "PU"
+                elif file_url.find("pj") != -1:
+                    NIVEL = "PJ"
                 else:
                     continue
 

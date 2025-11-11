@@ -95,3 +95,102 @@ obi-online-judge/
 This project is open-source under the **MIT License**.
 Created for educational purposes — not affiliated with the official **OBI (Olimpíada Brasileira de Informática)**.
 
+# OBI Online Judge
+
+Um **sistema online de correção de exercícios (online judge)** leve e **de código aberto**, criado para oferecer uma alternativa estável à plataforma oficial **Pratique OBI** — que frequentemente apresenta instabilidade.
+Este projeto permite que alunos e professores **pratiquem problemas de programação de edições anteriores da OBI** diretamente por meio de uma interface web simples.
+
+---
+
+## Visão Geral
+
+O OBI Online Judge coleta automaticamente e organiza os **problemas, PDFs e gabaritos (arquivos de resposta)** do **site oficial da OBI**, oferecendo um ambiente independente para visualizar enunciados e testar soluções.
+
+Se algum arquivo parecer ausente ou incorreto, isso ocorre porque o **caminho original no site da OBI estava incorreto** no momento da coleta.
+
+---
+
+## Funcionalidades
+
+* Navegue pelos problemas da OBI por **ano, fase e nível**
+* **Barra de busca** para encontrar problemas rapidamente
+* Visualização de **enunciados em PDF incorporados**
+* Envio e simulação de **submissões de código**
+* Suporte para todas as linguagens oficiais da OBI:
+
+  * C (`.c`)
+  * C++ (`.cpp`)
+  * Pascal (`.pas`)
+  * Java (`.java`)
+  * Python 3 (`.py`)
+  * JavaScript (`.js`)
+
+---
+
+## Executando Localmente (Ambiente de Desenvolvimento)
+
+### 1. Clonar o Repositório
+
+```bash
+git clone https://github.com/your-username/obi-online-judge.git
+cd obi-online-judge
+```
+
+### 2. Instalar Dependências
+
+Usando o **Poetry**:
+
+```bash
+poetry install
+```
+
+### 3. Executar a Aplicação
+
+```bash
+poetry run python3 webScrap/obiscrap.py // PARA COLETAR OS PDFs e ZIPs
+poetry run python3 app.py
+```
+
+Após iniciar, a interface web estará disponível em:
+
+```
+http://localhost:5000
+```
+
+---
+
+## Estrutura de Pastas
+
+```
+obi-online-judge/
+│
+├── app.py                 # Aplicação principal Flask
+├── static/
+│   ├── problems/          # Arquivos de problemas da OBI baixados
+├── templates/
+│   ├── base.html
+│   ├── index.html
+│   └── problems.html
+├── webScrap/              # Script de coleta e organização dos problemas
+│   └── obiScrap.py
+└── README.md
+```
+
+---
+
+## Notas sobre a Coleta
+
+* O script utiliza `requests` + `BeautifulSoup` para coletar os PDFs e gabaritos de edições anteriores.
+* A organização dos arquivos segue o padrão:
+
+  ```
+  static/problems/<ano>/<nível>/<arquivos>
+  ```
+* Se algum problema estiver faltando ou duplicado, geralmente significa que o **link no site da OBI** estava quebrado ou apontava para o arquivo errado.
+
+---
+
+## Licença
+
+Este projeto é open-source sob a **Licença MIT**.
+Criado para fins educacionais — **sem afiliação com a OBI (Olimpíada Brasileira de Informática)** oficial.
