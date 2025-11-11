@@ -74,8 +74,8 @@ async function enviarCodigo() {
     }
 
     const languageIds = {
-        py: 70,   // Python 2.7.17
-        c: 47,    // Basic (FBC 1.07.1)
+        py: 71,   // Python 2.7.17
+        c: 50,    // Basic (FBC 1.07.1)
         cpp: 76,  // C++ (Clang 7.0.1)
         java: 62, // Java (OpenJDK 13.0.1)
         pas: 67,  // Pascal (FPC 3.0.4)
@@ -112,9 +112,13 @@ async function enviarCodigo() {
 
         // 🔁 Loop pelos casos de teste
         for (let i = 0; i < total; i++) {
-            const input = await zip.file(inFiles[i]).async("string");
+            let input = await zip.file(inFiles[i]).async("string");
             const expected = (await zip.file(outFiles[i]).async("string")).trim();
-
+        
+            // 🩹 Correções para evitar erro de input:
+            if (input.trim() === "") input = "\n";       // evita erro com input vazio
+            if (!input.endsWith("\n")) input += "\n";    // garante quebra de linha final
+            
             const payload = {
                 source_code: toBase64(codigo),
                 stdin: toBase64(input),
