@@ -44,44 +44,128 @@
     <button onclick="enviarCodigo()" class="btn btn-success">Enviar</button>
 </div>
 
+<div id="results" style="margin-top: 20px;"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jszip-utils/0.1.0/jszip-utils.min.js"></script>
+
 <script>
-function enviarCodigo() {
+const JUDGE0_URL = "https://judge.darlon.com.br";
+
+async function enviarCodigo() {
     const codigo = document.getElementById('codigo').value.trim();
     const limiteTempo = Number(document.getElementById('limiteTempo').value);
     const limiteMemoria = Number(document.getElementById('limiteMemoria').value);
     const linguagem = document.getElementById('language').value;
 
-    if (!linguagem) {
-        alert("Por favor, insira uma linguagem antes de enviar!");
-        return;
-    }
+    // Variáveis injetadas via Jinja (Flask)
+    const ano = "{{ ano }}";
+    const nivel = "{{ nivel }}";
+    const problema = "{{ problema }}";
 
-    if (!codigo) {
-        alert("Por favor, insira o código antes de enviar!");
-        return;
-    }
-
+    if (!linguagem) return alert("Por favor, insira uma linguagem antes de enviar!");
+    if (!codigo) return alert("Por favor, insira o código antes de enviar!");
     if (
         isNaN(limiteTempo) || isNaN(limiteMemoria) ||
         limiteTempo < 1 || limiteTempo > 10 ||
         limiteMemoria < 16 || limiteMemoria > 1024
     ) {
-        alert("Os limites devem estar entre 1–10 segundos e 16–1024 MB!");
-        return;
+        return alert("Os limites devem estar entre 1–10 segundos e 16–1024 MB!");
     }
 
-    const tempoInput = document.getElementById('limiteTempo');
-    const memoriaInput = document.getElementById('limiteMemoria');
-    tempoInput.value = Math.max(1, Math.min(limiteTempo, 10));
-    memoriaInput.value = Math.max(16, Math.min(limiteMemoria, 1024));
+    const languageIds = {
+        py: 70,   // Python 2.7.17
+        c: 47,    // Basic (FBC 1.07.1)
+        cpp: 76,  // C++ (Clang 7.0.1)
+        java: 62, // Java (OpenJDK 13.0.1)
+        pas: 67,  // Pascal (FPC 3.0.4)
+        js: 63    // JavaScript (Node.js 12.14.0)
+    };
 
-    // (opcional) registrar no servidor
-    alert("Código enviado com sucesso!\n" +
-          "Tempo: " + tempoInput.value + "s\n" +
-          "Memória: " + memoriaInput.value + "MB");
+    const toBase64 = str => btoa(unescape(encodeURIComponent(str)));
+    const fromBase64 = str => decodeURIComponent(escape(atob(str)));
 
-    // JAO SEU TRABALHO COMEÇA AQ
-    
+    const resultsDiv = document.getElementById("results");
+    resultsDiv.innerHTML = "<h3>Baixando e testando...</h3>";
+
+    // Caminho para o arquivo ZIP com os casos de teste
+    const zipUrl = `/static/problems/${ano}/${nivel.toUpperCase()}/${problema}`;
+
+    try {
+        // ✅ Usando JSZipUtils para obter o ZIP em binário
+        const data = await new Promise((resolve, reject) => {
+            JSZipUtils.getBinaryContent(zipUrl, (err, data) => {
+                if (err) reject(err);
+                else resolve(data);
+            });
+        });
+
+        const zip = await JSZip.loadAsync(data);
+        const files = Object.keys(zip.files);
+        const inFiles = files.filter(f => f.match(/in/i)).sort();
+        const outFiles = files.filter(f => f.match(/(sol|out)/i)).sort();        
+
+        let passed = 0;
+        const total = inFiles.length;
+
+        resultsDiv.innerHTML = `<h3>Executando ${total} casos de teste...</h3>`;
+
+        // 🔁 Loop pelos casos de teste
+        for (let i = 0; i < total; i++) {
+            const input = await zip.file(inFiles[i]).async("string");
+            const expected = (await zip.file(outFiles[i]).async("string")).trim();
+
+            const payload = {
+                source_code: toBase64(codigo),
+                stdin: toBase64(input),
+                language_id: languageIds[linguagem],
+                base64_encoded: true,
+                wait: true
+            };
+
+            // Envio ao Judge0
+            const res = await fetch(`${JUDGE0_URL}/submissions?base64_encoded=true&wait=true`, {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(payload)
+            });
+
+            const result = await res.json();
+            const output = fromBase64(result.stdout || "").trim();
+            let status = "Erro";
+
+
+
+            if (output === expected) passed++;
+            if (output === expected) status = "Accepted";
+
+
+            // Mostra o progresso caso a caso
+            const caseDiv = document.createElement("div");
+            caseDiv.innerHTML = `
+                <b>Teste ${i + 1}:</b><br>
+                <i>Status:</i> ${status}<br>
+                <i>Esperado:</i> <pre>${expected}</pre>
+                <i>Obtido:</i> <pre>${output}</pre>
+                <hr>
+            `;
+            resultsDiv.appendChild(caseDiv);
+        }
+
+        // Resultado final
+        const h3 = resultsDiv.querySelector("h3");
+        if (h3) h3.remove();
+
+        resultsDiv.insertAdjacentHTML(
+            "afterbegin",
+            `<h2>Resultado final: ${passed}/${total} casos corretos</h2>`
+        );
+
+    } catch (error) {
+        console.error(error);
+        resultsDiv.textContent = "Erro ao executar testes (ver console).";
+        console.log(zipUrl);
+    }
 }
 </script>
 {% endblock %}
