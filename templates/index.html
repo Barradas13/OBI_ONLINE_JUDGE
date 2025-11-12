@@ -35,12 +35,14 @@
                                     <button onclick="toggle('{{ ano }}-{{ fase }}-{{ nivel }}')">Nível {{ nivel|replace('p', '') }}</button>
                                     <ul id="{{ ano }}-{{ fase }}-{{ nivel }}" style="display: none; margin-left: 20px;">
                                         {% for problema in problemas %}
-                                            <li>
-                                                <a href="{{ url_for('ir_para_problema', ano=ano, fase=fase, nivel=nivel, problema=problema) }}" 
-                                                   data-search="{{ problema }} {{ ano }} {{ fase }} {{ nivel }}">
-                                                    {{ problema }}
-                                                </a>
-                                            </li>
+                                            {% if "pdf" not in problema %}
+                                                <li>
+                                                    <a href="{{ url_for('ir_para_problema', ano=ano, fase=fase, nivel=nivel, problema=problema) }}" 
+                                                    data-search="{{ problema }} {{ ano }} {{ fase }} {{ nivel }}">
+                                                        {{ problema }}
+                                                    </a>
+                                                </li>
+                                            {% endif %}
                                         {% endfor %}
                                     </ul>
                                 </li>

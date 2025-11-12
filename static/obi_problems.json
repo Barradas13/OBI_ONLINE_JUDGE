@@ -1,0 +1,1079 @@
+{
+    "2000": {
+        "fase1": {
+            "P2": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2000/provas/ProvaOBI2000_f1p2.pdf",
+                "rede": "https://olimpiada.ic.unicamp.br/static/extras/obi2000/gabaritos/2000f1p2_rede.zip",
+                "querm": "https://olimpiada.ic.unicamp.br/static/extras/obi2000/gabaritos/2000f1p2_querm.zip",
+                "bit": "https://olimpiada.ic.unicamp.br/static/extras/obi2000/gabaritos/2000f1p2_bit.zip",
+                "saldo": "https://olimpiada.ic.unicamp.br/static/extras/obi2000/gabaritos/2000f1p2_saldo.zip",
+                "macaco": "https://olimpiada.ic.unicamp.br/static/extras/obi2000/gabaritos/2000f1p2_macaco.zip"
+            },
+            "P0": {}
+        }
+    },
+    "2001": {
+        "fase1": {
+            "P2": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2001/provas/ProvaOBI2001_f1p2.pdf",
+                "meteoro": "https://olimpiada.ic.unicamp.br/static/extras/obi2001/gabaritos/2001f1p2_meteoro.zip",
+                "domino": "https://olimpiada.ic.unicamp.br/static/extras/obi2001/gabaritos/2001f1p2_domino.zip",
+                "dengue": "https://olimpiada.ic.unicamp.br/static/extras/obi2001/gabaritos/2001f1p2_dengue.zip",
+                "sorvete": "https://olimpiada.ic.unicamp.br/static/extras/obi2001/gabaritos/2001f1p2_sorvete.zip",
+                "calcula": "https://olimpiada.ic.unicamp.br/static/extras/obi2001/gabaritos/2001f1p2_calcula.zip"
+            },
+            "P0": {}
+        }
+    },
+    "2002": {
+        "fase1": {
+            "P2": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2002/provas/ProvaOBI2002_f1p2.pdf",
+                "aero": "https://olimpiada.ic.unicamp.br/static/extras/obi2002/gabaritos/2002f1p2_aero.zip",
+                "dobra": "https://olimpiada.ic.unicamp.br/static/extras/obi2002/gabaritos/2002f1p2_dobra.zip",
+                "lua": "https://olimpiada.ic.unicamp.br/static/extras/obi2002/gabaritos/2002f1p2_lua.zip",
+                "pedagio": "https://olimpiada.ic.unicamp.br/static/extras/obi2002/gabaritos/2002f1p2_pedagio.zip",
+                "tesouro": "https://olimpiada.ic.unicamp.br/static/extras/obi2002/gabaritos/2002f1p2_tesouro.zip"
+            },
+            "P0": {}
+        }
+    },
+    "2003": {
+        "fase1": {
+            "P0": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2003/provas/ProvaOBI2003_f0p0.pdf",
+                "cofre": "https://olimpiada.ic.unicamp.br/static/extras/obi2003/gabaritos/2003f0p0_cofre.zip",
+                "estagio": "https://olimpiada.ic.unicamp.br/static/extras/obi2003/gabaritos/2003f0p0_estagio.zip",
+                "hanoi": "https://olimpiada.ic.unicamp.br/static/extras/obi2003/gabaritos/2003f0p0_hanoi.zip",
+                "super": "https://olimpiada.ic.unicamp.br/static/extras/obi2003/gabaritos/2003f0p0_super.zip",
+                "erdos": "https://olimpiada.ic.unicamp.br/static/extras/obi2003/gabaritos/2003f0p0_erdos.zip",
+                "tetris": "https://olimpiada.ic.unicamp.br/static/extras/obi2003/gabaritos/2003f0p0_tetris.zip"
+            }
+        }
+    },
+    "2004": {
+        "fase1": {
+            "P0": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2004/provas/ProvaOBI2004_f0p0.pdf",
+                "par": "https://olimpiada.ic.unicamp.br/static/extras/obi2004/gabaritos/2004f0p0_par.zip",
+                "senha": "https://olimpiada.ic.unicamp.br/static/extras/obi2004/gabaritos/2004f0p0_senha.zip",
+                "furos": "https://olimpiada.ic.unicamp.br/static/extras/obi2004/gabaritos/2004f0p0_furos.zip",
+                "pal": "https://olimpiada.ic.unicamp.br/static/extras/obi2004/gabaritos/2004f0p0_pal.zip",
+                "orkut": "https://olimpiada.ic.unicamp.br/static/extras/obi2004/gabaritos/2004f0p0_orkut.zip",
+                "tv": "https://olimpiada.ic.unicamp.br/static/extras/obi2004/gabaritos/2004f0p0_tv.zip"
+            }
+        }
+    },
+    "2005": {
+        "fase1": {
+            "P1": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2005/provas/ProvaOBI2005_f0p1.pdf",
+                "taxi": "https://olimpiada.ic.unicamp.br/static/extras/obi2005/gabaritos/2005f0p1_taxi.zip",
+                "minhoca": "https://olimpiada.ic.unicamp.br/static/extras/obi2005/gabaritos/2005f0p1_minhoca.zip",
+                "duende": "https://olimpiada.ic.unicamp.br/static/extras/obi2005/gabaritos/2005f0p1_duende.zip",
+                "trilhas": "https://olimpiada.ic.unicamp.br/static/extras/obi2005/gabaritos/2005f0p1_trilhas.zip"
+            },
+            "P2": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2005/provas/ProvaOBI2005_f0p2.pdf",
+                "bafo": "https://olimpiada.ic.unicamp.br/static/extras/obi2005/gabaritos/2005f0p2_bafo.zip",
+                "energia": "https://olimpiada.ic.unicamp.br/static/extras/obi2005/gabaritos/2005f0p2_energia.zip",
+                "vivo": "https://olimpiada.ic.unicamp.br/static/extras/obi2005/gabaritos/2005f0p2_vivo.zip",
+                "desculpa": "https://olimpiada.ic.unicamp.br/static/extras/obi2005/gabaritos/2005f0p2_desculpa.zip",
+                "poker": "https://olimpiada.ic.unicamp.br/static/extras/obi2005/gabaritos/2005f0p2_poker.zip"
+            }
+        }
+    },
+    "2006": {
+        "fase1": {
+            "P1": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2006/provas/ProvaOBI2006_f1p1.pdf",
+                "mono": "https://olimpiada.ic.unicamp.br/static/extras/obi2006/gabaritos/2006f1p1_mono.zip",
+                "marg": "https://olimpiada.ic.unicamp.br/static/extras/obi2006/gabaritos/2006f1p1_marg.zip",
+                "conversa": "https://olimpiada.ic.unicamp.br/static/extras/obi2006/gabaritos/2006f1p1_conversa.zip"
+            },
+            "P2": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2006/provas/ProvaOBI2006_f1p2.pdf",
+                "truco": "https://olimpiada.ic.unicamp.br/static/extras/obi2006/gabaritos/2006f1p2_truco.zip",
+                "caju": "https://olimpiada.ic.unicamp.br/static/extras/obi2006/gabaritos/2006f1p2_caju.zip",
+                "cartas": "https://olimpiada.ic.unicamp.br/static/extras/obi2006/gabaritos/2006f1p2_cartas.zip",
+                "museu": "https://olimpiada.ic.unicamp.br/static/extras/obi2006/gabaritos/2006f1p2_museu.zip",
+                "escada": "https://olimpiada.ic.unicamp.br/static/extras/obi2006/gabaritos/2006f1p2_escada.zip"
+            }
+        },
+        "fase2": {
+            "P1": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2006/provas/ProvaOBI2006_f2p1.pdf",
+                "lobo": "https://olimpiada.ic.unicamp.br/static/extras/obi2006/gabaritos/2006f2p1_lobo.zip",
+                "auto": "https://olimpiada.ic.unicamp.br/static/extras/obi2006/gabaritos/2006f2p1_auto.zip",
+                "quadrado": "https://olimpiada.ic.unicamp.br/static/extras/obi2006/gabaritos/2006f2p1_quadrado.zip"
+            },
+            "P2": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2006/provas/ProvaOBI2006_f2p2.pdf",
+                "lobo": "https://olimpiada.ic.unicamp.br/static/extras/obi2006/gabaritos/2006f2p2_lobo.zip",
+                "penalidade": "https://olimpiada.ic.unicamp.br/static/extras/obi2006/gabaritos/2006f2p2_penalidade.zip",
+                "sub": "https://olimpiada.ic.unicamp.br/static/extras/obi2006/gabaritos/2006f2p2_sub.zip"
+            }
+        }
+    },
+    "2007": {
+        "fase1": {
+            "P1": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2007/provas/ProvaOBI2007_f1p1.pdf",
+                "perdida": "https://olimpiada.ic.unicamp.br/static/extras/obi2007/gabaritos/2007f1p1_perdida.zip",
+                "magico": "https://olimpiada.ic.unicamp.br/static/extras/obi2007/gabaritos/2007f1p1_magico.zip",
+                "colisoes": "https://olimpiada.ic.unicamp.br/static/extras/obi2007/gabaritos/2007f1p1_colisoes.zip"
+            },
+            "P2": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2007/provas/ProvaOBI2007_f1p2.pdf",
+                "choc": "https://olimpiada.ic.unicamp.br/static/extras/obi2007/gabaritos/2007f1p2_choc.zip",
+                "repos": "https://olimpiada.ic.unicamp.br/static/extras/obi2007/gabaritos/2007f1p2_repos.zip",
+                "pastas": "https://olimpiada.ic.unicamp.br/static/extras/obi2007/gabaritos/2007f1p2_pastas.zip",
+                "mobile": "https://olimpiada.ic.unicamp.br/static/extras/obi2007/gabaritos/2007f1p2_mobile.zip",
+                "saco": "https://olimpiada.ic.unicamp.br/static/extras/obi2007/gabaritos/2007f1p2_saco.zip"
+            }
+        },
+        "fase2": {
+            "P1": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2007/provas/ProvaOBI2007_f2p1.pdf",
+                "uiqui": "https://olimpiada.ic.unicamp.br/static/extras/obi2007/gabaritos/2007f2p1_uiqui.zip",
+                "tele": "https://olimpiada.ic.unicamp.br/static/extras/obi2007/gabaritos/2007f2p1_tele.zip",
+                "metro": "https://olimpiada.ic.unicamp.br/static/extras/obi2007/gabaritos/2007f2p1_metro.zip"
+            },
+            "P2": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2007/provas/ProvaOBI2007_f2p2.pdf",
+                "tele": "https://olimpiada.ic.unicamp.br/static/extras/obi2007/gabaritos/2007f2p2_tele.zip",
+                "lab": "https://olimpiada.ic.unicamp.br/static/extras/obi2007/gabaritos/2007f2p2_lab.zip",
+                "pizza": "https://olimpiada.ic.unicamp.br/static/extras/obi2007/gabaritos/2007f2p2_pizza.zip"
+            }
+        }
+    },
+    "2008": {
+        "fase1": {
+            "PJ": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2008/provas/ProvaOBI2008_f1pj.pdf",
+                "obi": "https://olimpiada.ic.unicamp.br/static/extras/obi2008/gabaritos/2008f1pj_obi.zip",
+                "telefone2": "https://olimpiada.ic.unicamp.br/static/extras/obi2008/gabaritos/2008f1pj_telefone2.zip",
+                "vestib": "https://olimpiada.ic.unicamp.br/static/extras/obi2008/gabaritos/2008f1pj_vestib.zip"
+            },
+            "P1": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2008/provas/ProvaOBI2008_f1p1.pdf",
+                "obi": "https://olimpiada.ic.unicamp.br/static/extras/obi2008/gabaritos/2008f1p1_obi.zip",
+                "insens": "https://olimpiada.ic.unicamp.br/static/extras/obi2008/gabaritos/2008f1p1_insens.zip",
+                "telefone": "https://olimpiada.ic.unicamp.br/static/extras/obi2008/gabaritos/2008f1p1_telefone.zip"
+            },
+            "P2": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2008/provas/ProvaOBI2008_f1p2.pdf",
+                "obi": "https://olimpiada.ic.unicamp.br/static/extras/obi2008/gabaritos/2008f1p2_obi.zip",
+                "telefone": "https://olimpiada.ic.unicamp.br/static/extras/obi2008/gabaritos/2008f1p2_telefone.zip",
+                "aviao": "https://olimpiada.ic.unicamp.br/static/extras/obi2008/gabaritos/2008f1p2_aviao.zip",
+                "lanche": "https://olimpiada.ic.unicamp.br/static/extras/obi2008/gabaritos/2008f1p2_lanche.zip",
+                "ogros": "https://olimpiada.ic.unicamp.br/static/extras/obi2008/gabaritos/2008f1p2_ogros.zip"
+            }
+        },
+        "fase2": {
+            "PJ": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2008/provas/ProvaOBI2008_f2pj.pdf",
+                "auto": "https://olimpiada.ic.unicamp.br/static/extras/obi2008/gabaritos/2008f2pj_auto.zip",
+                "minicalc": "https://olimpiada.ic.unicamp.br/static/extras/obi2008/gabaritos/2008f2pj_minicalc.zip",
+                "acoes": "https://olimpiada.ic.unicamp.br/static/extras/obi2008/gabaritos/2008f2pj_acoes.zip"
+            },
+            "P1": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2008/provas/ProvaOBI2008_f2p1.pdf",
+                "auto": "https://olimpiada.ic.unicamp.br/static/extras/obi2008/gabaritos/2008f2p1_auto.zip",
+                "viagem": "https://olimpiada.ic.unicamp.br/static/extras/obi2008/gabaritos/2008f2p1_viagem.zip",
+                "cavalos": "https://olimpiada.ic.unicamp.br/static/extras/obi2008/gabaritos/2008f2p1_cavalos.zip"
+            },
+            "P2": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2008/provas/ProvaOBI2008_f2p2.pdf",
+                "auto": "https://olimpiada.ic.unicamp.br/static/extras/obi2008/gabaritos/2008f2p2_auto.zip",
+                "chuva": "https://olimpiada.ic.unicamp.br/static/extras/obi2008/gabaritos/2008f2p2_chuva.zip",
+                "ortografia": "https://olimpiada.ic.unicamp.br/static/extras/obi2008/gabaritos/2008f2p2_ortografia.zip",
+                "frete": "https://olimpiada.ic.unicamp.br/static/extras/obi2008/gabaritos/2008f2p2_frete.zip"
+            }
+        }
+    },
+    "2009": {
+        "fase1": {
+            "PJ": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2009/provas/ProvaOBI2009_f1pj.pdf",
+                "papel": "https://olimpiada.ic.unicamp.br/static/extras/obi2009/gabaritos/2009f1pj_papel.zip",
+                "envelopes1": "https://olimpiada.ic.unicamp.br/static/extras/obi2009/gabaritos/2009f1pj_envelopes1.zip",
+                "overflow": "https://olimpiada.ic.unicamp.br/static/extras/obi2009/gabaritos/2009f1pj_overflow.zip"
+            },
+            "P1": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2009/provas/ProvaOBI2009_f1p1.pdf",
+                "papel": "https://olimpiada.ic.unicamp.br/static/extras/obi2009/gabaritos/2009f1p1_papel.zip",
+                "overflow": "https://olimpiada.ic.unicamp.br/static/extras/obi2009/gabaritos/2009f1p1_overflow.zip",
+                "envelopes": "https://olimpiada.ic.unicamp.br/static/extras/obi2009/gabaritos/2009f1p1_envelopes.zip",
+                "bacterias": "https://olimpiada.ic.unicamp.br/static/extras/obi2009/gabaritos/2009f1p1_bacterias.zip"
+            },
+            "P2": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2009/provas/ProvaOBI2009_f1p2.pdf",
+                "nota": "https://olimpiada.ic.unicamp.br/static/extras/obi2009/gabaritos/2009f1p2_nota.zip",
+                "mito": "https://olimpiada.ic.unicamp.br/static/extras/obi2009/gabaritos/2009f1p2_mito.zip",
+                "pontes": "https://olimpiada.ic.unicamp.br/static/extras/obi2009/gabaritos/2009f1p2_pontes.zip",
+                "fugitivo": "https://olimpiada.ic.unicamp.br/static/extras/obi2009/gabaritos/2009f1p2_fugitivo.zip"
+            }
+        },
+        "fase2": {
+            "PJ": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2009/provas/ProvaOBI2009_f2pj.pdf",
+                "banda": "https://olimpiada.ic.unicamp.br/static/extras/obi2009/gabaritos/2009f2pj_banda.zip",
+                "maratona": "https://olimpiada.ic.unicamp.br/static/extras/obi2009/gabaritos/2009f2pj_maratona.zip",
+                "chocolate": "https://olimpiada.ic.unicamp.br/static/extras/obi2009/gabaritos/2009f2pj_chocolate.zip",
+                "olimp": "https://olimpiada.ic.unicamp.br/static/extras/obi2009/gabaritos/2009f2pj_olimp.zip"
+            },
+            "P1": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2009/provas/ProvaOBI2009_f2p1.pdf",
+                "maratona": "https://olimpiada.ic.unicamp.br/static/extras/obi2009/gabaritos/2009f2p1_maratona.zip",
+                "chocolate": "https://olimpiada.ic.unicamp.br/static/extras/obi2009/gabaritos/2009f2p1_chocolate.zip",
+                "olimp": "https://olimpiada.ic.unicamp.br/static/extras/obi2009/gabaritos/2009f2p1_olimp.zip",
+                "banda": "https://olimpiada.ic.unicamp.br/static/extras/obi2009/gabaritos/2009f2p1_banda.zip"
+            },
+            "P2": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2009/provas/ProvaOBI2009_f2p2.pdf",
+                "olimp": "https://olimpiada.ic.unicamp.br/static/extras/obi2009/gabaritos/2009f2p2_olimp.zip",
+                "banda": "https://olimpiada.ic.unicamp.br/static/extras/obi2009/gabaritos/2009f2p2_banda.zip",
+                "simulador": "https://olimpiada.ic.unicamp.br/static/extras/obi2009/gabaritos/2009f2p2_simulador.zip",
+                "cadeiras": "https://olimpiada.ic.unicamp.br/static/extras/obi2009/gabaritos/2009f2p2_cadeiras.zip",
+                "chocolate": "https://olimpiada.ic.unicamp.br/static/extras/obi2009/gabaritos/2009f2p2_chocolate.zip"
+            }
+        }
+    },
+    "2010": {
+        "fase1": {
+            "PJ": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2010/provas/ProvaOBI2010_f1pj.pdf",
+                "pneu": "https://olimpiada.ic.unicamp.br/static/extras/obi2010/gabaritos/2010f1pj_pneu.zip",
+                "garcom": "https://olimpiada.ic.unicamp.br/static/extras/obi2010/gabaritos/2010f1pj_garcom.zip",
+                "sedex": "https://olimpiada.ic.unicamp.br/static/extras/obi2010/gabaritos/2010f1pj_sedex.zip"
+            },
+            "P1": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2010/provas/ProvaOBI2010_f1p1.pdf",
+                "conta": "https://olimpiada.ic.unicamp.br/static/extras/obi2010/gabaritos/2010f1p1_conta.zip",
+                "pedagio": "https://olimpiada.ic.unicamp.br/static/extras/obi2010/gabaritos/2010f1p1_pedagio.zip",
+                "times": "https://olimpiada.ic.unicamp.br/static/extras/obi2010/gabaritos/2010f1p1_times.zip",
+                "copa": "https://olimpiada.ic.unicamp.br/static/extras/obi2010/gabaritos/2010f1p1_copa.zip"
+            },
+            "P2": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2010/provas/ProvaOBI2010_f1p2.pdf",
+                "cometa": "https://olimpiada.ic.unicamp.br/static/extras/obi2010/gabaritos/2010f1p2_cometa.zip",
+                "batalha": "https://olimpiada.ic.unicamp.br/static/extras/obi2010/gabaritos/2010f1p2_batalha.zip",
+                "elevador": "https://olimpiada.ic.unicamp.br/static/extras/obi2010/gabaritos/2010f1p2_elevador.zip",
+                "reuniao": "https://olimpiada.ic.unicamp.br/static/extras/obi2010/gabaritos/2010f1p2_reuniao.zip"
+            }
+        },
+        "fase2": {
+            "PJ": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2010/provas/ProvaOBI2010_f2pj.pdf",
+                "escada": "https://olimpiada.ic.unicamp.br/static/extras/obi2010/gabaritos/2010f2pj_escada.zip",
+                "tacografo": "https://olimpiada.ic.unicamp.br/static/extras/obi2010/gabaritos/2010f2pj_tacografo.zip",
+                "dentista": "https://olimpiada.ic.unicamp.br/static/extras/obi2010/gabaritos/2010f2pj_dentista.zip"
+            },
+            "P1": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2010/provas/ProvaOBI2010_f2p1.pdf",
+                "marciano": "https://olimpiada.ic.unicamp.br/static/extras/obi2010/gabaritos/2010f2p1_marciano.zip",
+                "fusoes": "https://olimpiada.ic.unicamp.br/static/extras/obi2010/gabaritos/2010f2p1_fusoes.zip",
+                "chamada": "https://olimpiada.ic.unicamp.br/static/extras/obi2010/gabaritos/2010f2p1_chamada.zip",
+                "danca": "https://olimpiada.ic.unicamp.br/static/extras/obi2010/gabaritos/2010f2p1_danca.zip"
+            },
+            "P2": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2010/provas/ProvaOBI2010_f2p2.pdf",
+                "floresta": "https://olimpiada.ic.unicamp.br/static/extras/obi2010/gabaritos/2010f2p2_floresta.zip",
+                "altas": "https://olimpiada.ic.unicamp.br/static/extras/obi2010/gabaritos/2010f2p2_altas.zip",
+                "tradutor": "https://olimpiada.ic.unicamp.br/static/extras/obi2010/gabaritos/2010f2p2_tradutor.zip",
+                "matrizes": "https://olimpiada.ic.unicamp.br/static/extras/obi2010/gabaritos/2010f2p2_matrizes.zip",
+                "telescopio": "https://olimpiada.ic.unicamp.br/static/extras/obi2010/gabaritos/2010f2p2_telescopio.zip"
+            }
+        }
+    },
+    "2011": {
+        "fase1": {
+            "PJ": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2011/provas/ProvaOBI2011_f1pj.pdf",
+                "transporte": "https://olimpiada.ic.unicamp.br/static/extras/obi2011/gabaritos/2011f1pj_transporte.zip",
+                "campominado": "https://olimpiada.ic.unicamp.br/static/extras/obi2011/gabaritos/2011f1pj_campominado.zip",
+                "corrida1": "https://olimpiada.ic.unicamp.br/static/extras/obi2011/gabaritos/2011f1pj_corrida1.zip"
+            },
+            "P1": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2011/provas/ProvaOBI2011_f1p1.pdf",
+                "corrida2": "https://olimpiada.ic.unicamp.br/static/extras/obi2011/gabaritos/2011f1p1_corrida2.zip",
+                "pas": "https://olimpiada.ic.unicamp.br/static/extras/obi2011/gabaritos/2011f1p1_pas.zip",
+                "pulosapo": "https://olimpiada.ic.unicamp.br/static/extras/obi2011/gabaritos/2011f1p1_pulosapo.zip",
+                "triangulos": "https://olimpiada.ic.unicamp.br/static/extras/obi2011/gabaritos/2011f1p1_triangulos.zip"
+            },
+            "P2": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2011/provas/ProvaOBI2011_f1p2.pdf",
+                "pesca": "https://olimpiada.ic.unicamp.br/static/extras/obi2011/gabaritos/2011f1p2_pesca.zip",
+                "tesouro": "https://olimpiada.ic.unicamp.br/static/extras/obi2011/gabaritos/2011f1p2_tesouro.zip",
+                "cartografico": "https://olimpiada.ic.unicamp.br/static/extras/obi2011/gabaritos/2011f1p2_cartografico.zip",
+                "quadrado": "https://olimpiada.ic.unicamp.br/static/extras/obi2011/gabaritos/2011f1p2_quadrado.zip"
+            }
+        },
+        "fase2": {
+            "PJ": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2011/provas/ProvaOBI2011_f2pj.pdf",
+                "chuva": "https://olimpiada.ic.unicamp.br/static/extras/obi2011/gabaritos/2011f2pj_chuva.zip",
+                "gincana": "https://olimpiada.ic.unicamp.br/static/extras/obi2011/gabaritos/2011f2pj_gincana.zip",
+                "calculadora": "https://olimpiada.ic.unicamp.br/static/extras/obi2011/gabaritos/2011f2pj_calculadora.zip"
+            },
+            "P1": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2011/provas/ProvaOBI2011_f2p1.pdf",
+                "calculadora": "https://olimpiada.ic.unicamp.br/static/extras/obi2011/gabaritos/2011f2p1_calculadora.zip",
+                "colorir": "https://olimpiada.ic.unicamp.br/static/extras/obi2011/gabaritos/2011f2p1_colorir.zip",
+                "bale": "https://olimpiada.ic.unicamp.br/static/extras/obi2011/gabaritos/2011f2p1_bale.zip",
+                "selos": "https://olimpiada.ic.unicamp.br/static/extras/obi2011/gabaritos/2011f2p1_selos.zip"
+            },
+            "P2": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2011/provas/ProvaOBI2011_f2p2.pdf",
+                "magico": "https://olimpiada.ic.unicamp.br/static/extras/obi2011/gabaritos/2011f2p2_magico.zip",
+                "expressoes": "https://olimpiada.ic.unicamp.br/static/extras/obi2011/gabaritos/2011f2p2_expressoes.zip",
+                "escalona": "https://olimpiada.ic.unicamp.br/static/extras/obi2011/gabaritos/2011f2p2_escalona.zip",
+                "rmapa": "https://olimpiada.ic.unicamp.br/static/extras/obi2011/gabaritos/2011f2p2_rmapa.zip"
+            }
+        }
+    },
+    "2012": {
+        "fase1": {
+            "PJ": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2012/provas/ProvaOBI2012_f1pj.pdf",
+                "campeonato": "https://olimpiada.ic.unicamp.br/static/extras/obi2012/gabaritos/2012f1pj_campeonato.zip",
+                "busca": "https://olimpiada.ic.unicamp.br/static/extras/obi2012/gabaritos/2012f1pj_busca.zip",
+                "maior": "https://olimpiada.ic.unicamp.br/static/extras/obi2012/gabaritos/2012f1pj_maior.zip"
+            },
+            "P1": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2012/provas/ProvaOBI2012_f1p1.pdf",
+                "vice": "https://olimpiada.ic.unicamp.br/static/extras/obi2012/gabaritos/2012f1p1_vice.zip",
+                "corrida": "https://olimpiada.ic.unicamp.br/static/extras/obi2012/gabaritos/2012f1p1_corrida.zip",
+                "iguais": "https://olimpiada.ic.unicamp.br/static/extras/obi2012/gabaritos/2012f1p1_iguais.zip"
+            },
+            "P2": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2012/provas/ProvaOBI2012_f1p2.pdf",
+                "colchao": "https://olimpiada.ic.unicamp.br/static/extras/obi2012/gabaritos/2012f1p2_colchao.zip",
+                "cavalo": "https://olimpiada.ic.unicamp.br/static/extras/obi2012/gabaritos/2012f1p2_cavalo.zip",
+                "frequencia": "https://olimpiada.ic.unicamp.br/static/extras/obi2012/gabaritos/2012f1p2_frequencia.zip",
+                "tarzan": "https://olimpiada.ic.unicamp.br/static/extras/obi2012/gabaritos/2012f1p2_tarzan.zip"
+            }
+        },
+        "fase2": {
+            "PJ": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2012/provas/ProvaOBI2012_f2pj.pdf",
+                "chocolate": "https://olimpiada.ic.unicamp.br/static/extras/obi2012/gabaritos/2012f2pj_chocolate.zip",
+                "tenis": "https://olimpiada.ic.unicamp.br/static/extras/obi2012/gabaritos/2012f2pj_tenis.zip",
+                "bolo": "https://olimpiada.ic.unicamp.br/static/extras/obi2012/gabaritos/2012f2pj_bolo.zip"
+            },
+            "P1": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2012/provas/ProvaOBI2012_f2p1.pdf",
+                "carnaval": "https://olimpiada.ic.unicamp.br/static/extras/obi2012/gabaritos/2012f2p1_carnaval.zip",
+                "costa": "https://olimpiada.ic.unicamp.br/static/extras/obi2012/gabaritos/2012f2p1_costa.zip",
+                "guerra": "https://olimpiada.ic.unicamp.br/static/extras/obi2012/gabaritos/2012f2p1_guerra.zip"
+            },
+            "P2": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2012/provas/ProvaOBI2012_f2p2.pdf",
+                "album": "https://olimpiada.ic.unicamp.br/static/extras/obi2012/gabaritos/2012f2p2_album.zip",
+                "banco": "https://olimpiada.ic.unicamp.br/static/extras/obi2012/gabaritos/2012f2p2_banco.zip",
+                "soma": "https://olimpiada.ic.unicamp.br/static/extras/obi2012/gabaritos/2012f2p2_soma.zip",
+                "bomba": "https://olimpiada.ic.unicamp.br/static/extras/obi2012/gabaritos/2012f2p2_bomba.zip"
+            }
+        }
+    },
+    "2013": {
+        "fase1": {
+            "PJ": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2013/provas/ProvaOBI2013_f1pj.pdf",
+                "saldo": "https://olimpiada.ic.unicamp.br/static/extras/obi2013/gabaritos/2013f1pj_saldo.zip",
+                "tomadas": "https://olimpiada.ic.unicamp.br/static/extras/obi2013/gabaritos/2013f1pj_tomadas.zip",
+                "capital": "https://olimpiada.ic.unicamp.br/static/extras/obi2013/gabaritos/2013f1pj_capital.zip"
+            },
+            "P1": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2013/provas/ProvaOBI2013_f1p1.pdf",
+                "corrida": "https://olimpiada.ic.unicamp.br/static/extras/obi2013/gabaritos/2013f1p1_corrida.zip",
+                "capital": "https://olimpiada.ic.unicamp.br/static/extras/obi2013/gabaritos/2013f1p1_capital.zip",
+                "rodovia": "https://olimpiada.ic.unicamp.br/static/extras/obi2013/gabaritos/2013f1p1_rodovia.zip",
+                "robo": "https://olimpiada.ic.unicamp.br/static/extras/obi2013/gabaritos/2013f1p1_robo.zip"
+            },
+            "P2": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2013/provas/ProvaOBI2013_f1p2.pdf",
+                "lencol": "https://olimpiada.ic.unicamp.br/static/extras/obi2013/gabaritos/2013f1p2_lencol.zip",
+                "alvo": "https://olimpiada.ic.unicamp.br/static/extras/obi2013/gabaritos/2013f1p2_alvo.zip",
+                "catalogo": "https://olimpiada.ic.unicamp.br/static/extras/obi2013/gabaritos/2013f1p2_catalogo.zip",
+                "vende": "https://olimpiada.ic.unicamp.br/static/extras/obi2013/gabaritos/2013f1p2_vende.zip"
+            }
+        },
+        "fase2": {
+            "PJ": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2013/provas/ProvaOBI2013_f2pj.pdf"
+            },
+            "P1": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2013/provas/ProvaOBI2013_f2p1.pdf"
+            },
+            "P2": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2013/provas/ProvaOBI2013_f2p2.pdf"
+            }
+        }
+    },
+    "2014": {
+        "fase1": {
+            "PJ": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2014/provas/ProvaOBI2014_f1pj.pdf",
+                "fliper": "https://olimpiada.ic.unicamp.br/static/extras/obi2014/gabaritos/2014f1pj_fliper.zip",
+                "gangorra": "https://olimpiada.ic.unicamp.br/static/extras/obi2014/gabaritos/2014f1pj_gangorra.zip",
+                "fila": "https://olimpiada.ic.unicamp.br/static/extras/obi2014/gabaritos/2014f1pj_fila.zip"
+            },
+            "P1": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2014/provas/ProvaOBI2014_f1p1.pdf",
+                "triangulo": "https://olimpiada.ic.unicamp.br/static/extras/obi2014/gabaritos/2014f1p1_triangulo.zip",
+                "setas": "https://olimpiada.ic.unicamp.br/static/extras/obi2014/gabaritos/2014f1p1_setas.zip",
+                "semente": "https://olimpiada.ic.unicamp.br/static/extras/obi2014/gabaritos/2014f1p1_semente.zip",
+                "letra": "https://olimpiada.ic.unicamp.br/static/extras/obi2014/gabaritos/2014f1p1_letra.zip"
+            },
+            "P2": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2014/provas/ProvaOBI2014_f1p2.pdf",
+                "copa": "https://olimpiada.ic.unicamp.br/static/extras/obi2014/gabaritos/2014f1p2_copa.zip",
+                "lingua": "https://olimpiada.ic.unicamp.br/static/extras/obi2014/gabaritos/2014f1p2_lingua.zip",
+                "pacman": "https://olimpiada.ic.unicamp.br/static/extras/obi2014/gabaritos/2014f1p2_pacman.zip",
+                "fechadura": "https://olimpiada.ic.unicamp.br/static/extras/obi2014/gabaritos/2014f1p2_fechadura.zip",
+                "escada": "https://olimpiada.ic.unicamp.br/static/extras/obi2014/gabaritos/2014f1p2_escada.zip"
+            },
+            "PU": {}
+        },
+        "fase2": {
+            "PJ": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2014/provas/ProvaOBI2014_f2pj.pdf",
+                "loteria": "https://olimpiada.ic.unicamp.br/static/extras/obi2014/gabaritos/2014f2pj_loteria.zip",
+                "sinuca": "https://olimpiada.ic.unicamp.br/static/extras/obi2014/gabaritos/2014f2pj_sinuca.zip",
+                "bolinha": "https://olimpiada.ic.unicamp.br/static/extras/obi2014/gabaritos/2014f2pj_bolinha.zip"
+            },
+            "P1": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2014/provas/ProvaOBI2014_f2p1.pdf",
+                "decifra": "https://olimpiada.ic.unicamp.br/static/extras/obi2014/gabaritos/2014f2p1_decifra.zip",
+                "quadrado": "https://olimpiada.ic.unicamp.br/static/extras/obi2014/gabaritos/2014f2p1_quadrado.zip",
+                "corredor": "https://olimpiada.ic.unicamp.br/static/extras/obi2014/gabaritos/2014f2p1_corredor.zip",
+                "memoria": "https://olimpiada.ic.unicamp.br/static/extras/obi2014/gabaritos/2014f2p1_memoria.zip"
+            },
+            "P2": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2014/provas/ProvaOBI2014_f2p2.pdf",
+                "notas": "https://olimpiada.ic.unicamp.br/static/extras/obi2014/gabaritos/2014f2p2_notas.zip",
+                "tapetes": "https://olimpiada.ic.unicamp.br/static/extras/obi2014/gabaritos/2014f2p2_tapetes.zip",
+                "blefe": "https://olimpiada.ic.unicamp.br/static/extras/obi2014/gabaritos/2014f2p2_blefe.zip",
+                "mapa": "https://olimpiada.ic.unicamp.br/static/extras/obi2014/gabaritos/2014f2p2_mapa.zip",
+                "frequencia": "https://olimpiada.ic.unicamp.br/static/extras/obi2014/gabaritos/2014f2p2_frequencia.zip"
+            },
+            "PU": {}
+        }
+    },
+    "2015": {
+        "fase1": {
+            "PJ": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2015/provas/ProvaOBI2015_f1pj.pdf",
+                "mobile": "https://olimpiada.ic.unicamp.br/static/extras/obi2015/gabaritos/2015f1pj_mobile.zip",
+                "fita": "https://olimpiada.ic.unicamp.br/static/extras/obi2015/gabaritos/2015f1pj_fita.zip",
+                "premio": "https://olimpiada.ic.unicamp.br/static/extras/obi2015/gabaritos/2015f1pj_premio.zip"
+            },
+            "P1": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2015/provas/ProvaOBI2015_f1p1.pdf",
+                "linhas": "https://olimpiada.ic.unicamp.br/static/extras/obi2015/gabaritos/2015f1p1_linhas.zip",
+                "arquivos": "https://olimpiada.ic.unicamp.br/static/extras/obi2015/gabaritos/2015f1p1_arquivos.zip"
+            },
+            "P2": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2015/provas/ProvaOBI2015_f1p2.pdf",
+                "coral": "https://olimpiada.ic.unicamp.br/static/extras/obi2015/gabaritos/2015f1p2_coral.zip",
+                "quebra": "https://olimpiada.ic.unicamp.br/static/extras/obi2015/gabaritos/2015f1p2_quebra.zip",
+                "real": "https://olimpiada.ic.unicamp.br/static/extras/obi2015/gabaritos/2015f1p2_real.zip",
+                "caixinha": "https://olimpiada.ic.unicamp.br/static/extras/obi2015/gabaritos/2015f1p2_caixinha.zip",
+                "banco": "https://olimpiada.ic.unicamp.br/static/extras/obi2015/gabaritos/2015f1p2_banco.zip"
+            },
+            "PU": {}
+        },
+        "fase2": {
+            "PJ": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2015/provas/ProvaOBI2015_f2pj.pdf",
+                "impedido": "https://olimpiada.ic.unicamp.br/static/extras/obi2015/gabaritos/2015f2pj_impedido.zip",
+                "torre": "https://olimpiada.ic.unicamp.br/static/extras/obi2015/gabaritos/2015f2pj_torre.zip",
+                "codigo": "https://olimpiada.ic.unicamp.br/static/extras/obi2015/gabaritos/2015f2pj_codigo.zip"
+            },
+            "P1": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2015/provas/ProvaOBI2015_f2p1.pdf",
+                "capitais": "https://olimpiada.ic.unicamp.br/static/extras/obi2015/gabaritos/2015f2p1_capitais.zip",
+                "letras": "https://olimpiada.ic.unicamp.br/static/extras/obi2015/gabaritos/2015f2p1_letras.zip"
+            },
+            "P2": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2015/provas/ProvaOBI2015_f2p2.pdf",
+                "macaco": "https://olimpiada.ic.unicamp.br/static/extras/obi2015/gabaritos/2015f2p2_macaco.zip",
+                "chocolate": "https://olimpiada.ic.unicamp.br/static/extras/obi2015/gabaritos/2015f2p2_chocolate.zip",
+                "mina": "https://olimpiada.ic.unicamp.br/static/extras/obi2015/gabaritos/2015f2p2_mina.zip",
+                "calculo": "https://olimpiada.ic.unicamp.br/static/extras/obi2015/gabaritos/2015f2p2_calculo.zip",
+                "fila": "https://olimpiada.ic.unicamp.br/static/extras/obi2015/gabaritos/2015f2p2_fila.zip"
+            },
+            "PU": {}
+        }
+    },
+    "2016": {
+        "fase1": {
+            "PJ": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2016/provas/ProvaOBI2016_f1pj.pdf",
+                "jogo": "https://olimpiada.ic.unicamp.br/static/extras/obi2016/gabaritos/2016f1pj_jogo.zip",
+                "lampadas": "https://olimpiada.ic.unicamp.br/static/extras/obi2016/gabaritos/2016f1pj_lampadas.zip",
+                "morango": "https://olimpiada.ic.unicamp.br/static/extras/obi2016/gabaritos/2016f1pj_morango.zip"
+            },
+            "P1": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2016/provas/ProvaOBI2016_f1p1.pdf",
+                "clube": "https://olimpiada.ic.unicamp.br/static/extras/obi2016/gabaritos/2016f1p1_clube.zip",
+                "tacos": "https://olimpiada.ic.unicamp.br/static/extras/obi2016/gabaritos/2016f1p1_tacos.zip"
+            },
+            "P2": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2016/provas/ProvaOBI2016_f1p2.pdf",
+                "chaves": "https://olimpiada.ic.unicamp.br/static/extras/obi2016/gabaritos/2016f1p2_chaves.zip",
+                "chuva": "https://olimpiada.ic.unicamp.br/static/extras/obi2016/gabaritos/2016f1p2_chuva.zip",
+                "hotel": "https://olimpiada.ic.unicamp.br/static/extras/obi2016/gabaritos/2016f1p2_hotel.zip",
+                "sanduiche": "https://olimpiada.ic.unicamp.br/static/extras/obi2016/gabaritos/2016f1p2_sanduiche.zip",
+                "toca": "https://olimpiada.ic.unicamp.br/static/extras/obi2016/gabaritos/2016f1p2_toca.zip"
+            },
+            "PU": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2016/provas/ProvaOBI2016_f1pu.pdf",
+                "direcao": "https://olimpiada.ic.unicamp.br/static/extras/obi2016/gabaritos/2016f1pu_direcao.zip",
+                "avenida": "https://olimpiada.ic.unicamp.br/static/extras/obi2016/gabaritos/2016f1pu_avenida.zip"
+            }
+        },
+        "fase2": {
+            "PJ": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2016/provas/ProvaOBI2016_f2pj.pdf",
+                "gincana": "https://olimpiada.ic.unicamp.br/static/extras/obi2016/gabaritos/2016f2pj_gincana.zip",
+                "fuga": "https://olimpiada.ic.unicamp.br/static/extras/obi2016/gabaritos/2016f2pj_fuga.zip"
+            },
+            "P1": {
+                "medalhas": "https://olimpiada.ic.unicamp.br/static/extras/obi2016/gabaritos/2016f2p1_medalhas.zip",
+                "caverna": "https://olimpiada.ic.unicamp.br/static/extras/obi2016/gabaritos/2016f2p1_caverna.zip",
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2016/provas/ProvaOBI2016_f2p1.pdf",
+                "arco": "https://olimpiada.ic.unicamp.br/static/extras/obi2016/gabaritos/2016f2p1_arco.zip",
+                "caminhos": "https://olimpiada.ic.unicamp.br/static/extras/obi2016/gabaritos/2016f2p1_caminhos.zip"
+            },
+            "P2": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2016/provas/ProvaOBI2016_f2p2.pdf",
+                "pokemon": "https://olimpiada.ic.unicamp.br/static/extras/obi2016/gabaritos/2016f2p2_pokemon.zip",
+                "jardim": "https://olimpiada.ic.unicamp.br/static/extras/obi2016/gabaritos/2016f2p2_jardim.zip",
+                "primo": "https://olimpiada.ic.unicamp.br/static/extras/obi2016/gabaritos/2016f2p2_primo.zip",
+                "falta": "https://olimpiada.ic.unicamp.br/static/extras/obi2016/gabaritos/2016f2p2_falta.zip",
+                "ciclovias": "https://olimpiada.ic.unicamp.br/static/extras/obi2016/gabaritos/2016f2p2_ciclovias.zip"
+            },
+            "PU": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2016/provas/ProvaOBI2016_f2pu.pdf",
+                "times": "https://olimpiada.ic.unicamp.br/static/extras/obi2016/gabaritos/2016f2pu_times.zip",
+                "arco": "https://olimpiada.ic.unicamp.br/static/extras/obi2016/gabaritos/2016f2pu_arco_online.zip"
+            }
+        }
+    },
+    "2017": {
+        "fase1": {
+            "PJ": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2017/provas/ProvaOBI2017_f1pj.pdf",
+                "bondinho": "https://olimpiada.ic.unicamp.br/static/extras/obi2017/gabaritos/2017f1pj_bondinho.zip",
+                "drone": "https://olimpiada.ic.unicamp.br/static/extras/obi2017/gabaritos/2017f1pj_drone.zip"
+            },
+            "P1": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2017/provas/ProvaOBI2017_f1p1.pdf",
+                "teleferico": "https://olimpiada.ic.unicamp.br/static/extras/obi2017/gabaritos/2017f1p1_teleferico.zip",
+                "cofre": "https://olimpiada.ic.unicamp.br/static/extras/obi2017/gabaritos/2017f1p1_cofre.zip"
+            },
+            "P2": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2017/provas/ProvaOBI2017_f1p2.pdf",
+                "game10": "https://olimpiada.ic.unicamp.br/static/extras/obi2017/gabaritos/2017f1p2_game10.zip",
+                "chefe": "https://olimpiada.ic.unicamp.br/static/extras/obi2017/gabaritos/2017f1p2_chefe.zip",
+                "botas": "https://olimpiada.ic.unicamp.br/static/extras/obi2017/gabaritos/2017f1p2_botas.zip"
+            },
+            "PU": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2017/provas/ProvaOBI2017_f1pu.pdf"
+            }
+        },
+        "fase2": {
+            "PJ": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2017/provas/ProvaOBI2017_f2pj.pdf",
+                "cartas": "https://olimpiada.ic.unicamp.br/static/extras/obi2017/gabaritos/2017f2pj_cartas.zip",
+                "montanha": "https://olimpiada.ic.unicamp.br/static/extras/obi2017/gabaritos/2017f2pj_montanha.zip",
+                "tabuleiro": "https://olimpiada.ic.unicamp.br/static/extras/obi2017/gabaritos/2017f2pj_tabuleiro.zip"
+            },
+            "P1": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2017/provas/ProvaOBI2017_f2p1.pdf",
+                "cores": "https://olimpiada.ic.unicamp.br/static/extras/obi2017/gabaritos/2017f2p1_cores.zip"
+            },
+            "P2": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2017/provas/ProvaOBI2017_f2p2.pdf",
+                "xerxes": "https://olimpiada.ic.unicamp.br/static/extras/obi2017/gabaritos/2017f2p2_xerxes.zip",
+                "mapa": "https://olimpiada.ic.unicamp.br/static/extras/obi2017/gabaritos/2017f2p2_mapa.zip",
+                "papel": "https://olimpiada.ic.unicamp.br/static/extras/obi2017/gabaritos/2017f2p2_papel.zip",
+                "frete": "https://olimpiada.ic.unicamp.br/static/extras/obi2017/gabaritos/2017f2p2_frete.zip"
+            },
+            "PU": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2017/provas/ProvaOBI2017_f2pu.pdf"
+            }
+        },
+        "fase3": {
+            "PJ": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2017/provas/ProvaOBI2017_f3pj.pdf",
+                "zip": "https://olimpiada.ic.unicamp.br/static/extras/obi2017/gabaritos/2017f3pj_zip.zip",
+                "gomoku": "https://olimpiada.ic.unicamp.br/static/extras/obi2017/gabaritos/2017f3pj_gomoku.zip",
+                "onibus": "https://olimpiada.ic.unicamp.br/static/extras/obi2017/gabaritos/2017f3pj_onibus.zip"
+            },
+            "P1": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2017/provas/ProvaOBI2017_f3p1.pdf",
+                "visita": "https://olimpiada.ic.unicamp.br/static/extras/obi2017/gabaritos/2017f3p1_visita.zip",
+                "bits": "https://olimpiada.ic.unicamp.br/static/extras/obi2017/gabaritos/2017f3p1_bits.zip"
+            },
+            "P2": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2017/provas/ProvaOBI2017_f3p2.pdf",
+                "taxa": "https://olimpiada.ic.unicamp.br/static/extras/obi2017/gabaritos/2017f3p2_taxa.zip",
+                "postes": "https://olimpiada.ic.unicamp.br/static/extras/obi2017/gabaritos/2017f3p2_postes.zip",
+                "imperio": "https://olimpiada.ic.unicamp.br/static/extras/obi2017/gabaritos/2017f3p2_imperio.zip",
+                "arranhaceu": "https://olimpiada.ic.unicamp.br/static/extras/obi2017/gabaritos/2017f3p2_arranhaceu.zip",
+                "codigo": "https://olimpiada.ic.unicamp.br/static/extras/obi2017/gabaritos/2017f3p2_codigo.zip",
+                "carrinho": "https://olimpiada.ic.unicamp.br/static/extras/obi2017/gabaritos/2017f3p2_carrinho.zip"
+            },
+            "PU": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2017/provas/ProvaOBI2017_f3pu.pdf"
+            }
+        }
+    },
+    "2018": {
+        "fase1": {
+            "PJ": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2018/provas/ProvaOBI2018_f1pj.pdf",
+                "basquete": "https://olimpiada.ic.unicamp.br/static/extras/obi2018/gabaritos/2018f1pj_basquete.zip",
+                "album": "https://olimpiada.ic.unicamp.br/static/extras/obi2018/gabaritos/2018f1pj_album.zip"
+            },
+            "P1": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2018/provas/ProvaOBI2018_f1p1.pdf",
+                "xadrez": "https://olimpiada.ic.unicamp.br/static/extras/obi2018/gabaritos/2018f1p1_xadrez.zip",
+                "escadinha": "https://olimpiada.ic.unicamp.br/static/extras/obi2018/gabaritos/2018f1p1_escadinha.zip",
+                "piramide": "https://olimpiada.ic.unicamp.br/static/extras/obi2018/gabaritos/2018f1p1_piramide.zip"
+            },
+            "P2": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2018/provas/ProvaOBI2018_f1p2.pdf",
+                "piso": "https://olimpiada.ic.unicamp.br/static/extras/obi2018/gabaritos/2018f1p2_piso.zip",
+                "figurinhas": "https://olimpiada.ic.unicamp.br/static/extras/obi2018/gabaritos/2018f1p2_figurinhas.zip",
+                "compensacao": "https://olimpiada.ic.unicamp.br/static/extras/obi2018/gabaritos/2018f1p2_compensacao.zip"
+            },
+            "PU": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2018/provas/ProvaOBI2018_f1pu.pdf",
+                "ilhas": "https://olimpiada.ic.unicamp.br/static/extras/obi2018/gabaritos/2018f1pu_ilhas.zip"
+            }
+        },
+        "fase2": {
+            "PJ": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2018/provas/ProvaOBI2018_f2pj.pdf",
+                "copa": "https://olimpiada.ic.unicamp.br/static/extras/obi2018/gabaritos/2018f2pj_copa.zip",
+                "pesos": "https://olimpiada.ic.unicamp.br/static/extras/obi2018/gabaritos/2018f2pj_pesos.zip",
+                "capsulas": "https://olimpiada.ic.unicamp.br/static/extras/obi2018/gabaritos/2018f2pj_capsulas.zip"
+            },
+            "P1": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2018/provas/ProvaOBI2018_f2p1.pdf",
+                "campeonato": "https://olimpiada.ic.unicamp.br/static/extras/obi2018/gabaritos/2018f2p1_campeonato.zip",
+                "relogios": "https://olimpiada.ic.unicamp.br/static/extras/obi2018/gabaritos/2018f2p1_relogios.zip"
+            },
+            "P2": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2018/provas/ProvaOBI2018_f2p2.pdf",
+                "fuga": "https://olimpiada.ic.unicamp.br/static/extras/obi2018/gabaritos/2018f2p2_fuga.zip",
+                "elevador": "https://olimpiada.ic.unicamp.br/static/extras/obi2018/gabaritos/2018f2p2_elevador.zip",
+                "wifi": "https://olimpiada.ic.unicamp.br/static/extras/obi2018/gabaritos/2018f2p2_wifi.zip"
+            },
+            "PU": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2018/provas/ProvaOBI2018_f2pu.pdf",
+                "sequencia": "https://olimpiada.ic.unicamp.br/static/extras/obi2018/gabaritos/2018f2pu_sequencia.zip"
+            }
+        },
+        "fase3": {
+            "PJ": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2018/provas/ProvaOBI2018_f3pj.pdf",
+                "batalha": "https://olimpiada.ic.unicamp.br/static/extras/obi2018/gabaritos/2018f3pj_batalha.zip",
+                "troca": "https://olimpiada.ic.unicamp.br/static/extras/obi2018/gabaritos/2018f3pj_troca.zip"
+            },
+            "PU": {
+                "pulo": "https://olimpiada.ic.unicamp.br/static/extras/obi2018/gabaritos/2018f3pj_pulo.zip",
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2018/provas/ProvaOBI2018_f3pu.pdf",
+                "maximin": "https://olimpiada.ic.unicamp.br/static/extras/obi2018/gabaritos/2018f3pu_maximin.zip"
+            },
+            "P1": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2018/provas/ProvaOBI2018_f3p1.pdf",
+                "recibo": "https://olimpiada.ic.unicamp.br/static/extras/obi2018/gabaritos/2018f3p1_recibo.zip",
+                "gato": "https://olimpiada.ic.unicamp.br/static/extras/obi2018/gabaritos/2018f3p1_gato.zip"
+            },
+            "P2": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2018/provas/ProvaOBI2018_f3p2.pdf",
+                "cinco": "https://olimpiada.ic.unicamp.br/static/extras/obi2018/gabaritos/2018f3p2_cinco.zip",
+                "muro": "https://olimpiada.ic.unicamp.br/static/extras/obi2018/gabaritos/2018f3p2_muro.zip",
+                "baldes": "https://olimpiada.ic.unicamp.br/static/extras/obi2018/gabaritos/2018f3p2_baldes.zip",
+                "mancha": "https://olimpiada.ic.unicamp.br/static/extras/obi2018/gabaritos/2018f3p2_mancha.zip",
+                "bolas": "https://olimpiada.ic.unicamp.br/static/extras/obi2018/gabaritos/2018f3p2_bolas.zip"
+            }
+        }
+    },
+    "2019": {
+        "fase1": {
+            "PJ": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2019/provas/ProvaOBI2019_f1pj.pdf",
+                "domino": "https://olimpiada.ic.unicamp.br/static/extras/obi2019/gabaritos/2019f1pj_domino.zip",
+                "idade": "https://olimpiada.ic.unicamp.br/static/extras/obi2019/gabaritos/2019f1pj_idade.zip",
+                "secreta": "https://olimpiada.ic.unicamp.br/static/extras/obi2019/gabaritos/2019f1pj_secreta.zip"
+            },
+            "P1": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2019/provas/ProvaOBI2019_f1p1.pdf",
+                "nota": "https://olimpiada.ic.unicamp.br/static/extras/obi2019/gabaritos/2019f1p1_nota.zip",
+                "jogo": "https://olimpiada.ic.unicamp.br/static/extras/obi2019/gabaritos/2019f1p1_jogo.zip",
+                "amigos": "https://olimpiada.ic.unicamp.br/static/extras/obi2019/gabaritos/2019f1p1_amigos.zip"
+            },
+            "P2": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2019/provas/ProvaOBI2019_f1p2.pdf",
+                "imperial": "https://olimpiada.ic.unicamp.br/static/extras/obi2019/gabaritos/2019f1p2_imperial.zip",
+                "soma": "https://olimpiada.ic.unicamp.br/static/extras/obi2019/gabaritos/2019f1p2_soma.zip",
+                "chuva": "https://olimpiada.ic.unicamp.br/static/extras/obi2019/gabaritos/2019f1p2_chuva.zip"
+            },
+            "PU": {}
+        },
+        "fase2": {
+            "PJ": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2019/provas/ProvaOBI2019_f2pj.pdf",
+                "nota": "https://olimpiada.ic.unicamp.br/static/extras/obi2019/gabaritos/2019f2pj_nota.zip",
+                "tabela": "https://olimpiada.ic.unicamp.br/static/extras/obi2019/gabaritos/2019f2pj_tabela.zip",
+                "copos": "https://olimpiada.ic.unicamp.br/static/extras/obi2019/gabaritos/2019f2pj_copos.zip"
+            },
+            "P1": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2019/provas/ProvaOBI2019_f2p1.pdf",
+                "matriz": "https://olimpiada.ic.unicamp.br/static/extras/obi2019/gabaritos/2019f2p1_matriz.zip",
+                "ponto": "https://olimpiada.ic.unicamp.br/static/extras/obi2019/gabaritos/2019f2p1_ponto.zip"
+            },
+            "P2": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2019/provas/ProvaOBI2019_f2p2.pdf",
+                "detetive": "https://olimpiada.ic.unicamp.br/static/extras/obi2019/gabaritos/2019f2p2_detetive.zip",
+                "super": "https://olimpiada.ic.unicamp.br/static/extras/obi2019/gabaritos/2019f2p2_super.zip"
+            },
+            "PU": {
+                "robo": "https://olimpiada.ic.unicamp.br/static/extras/obi2019/gabaritos/2019f2pu_robo.zip"
+            }
+        },
+        "fase3": {
+            "PJ": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2019/provas/ProvaOBI2019_f3pj.pdf",
+                "pares": "https://olimpiada.ic.unicamp.br/static/extras/obi2019/gabaritos/2019f3pj_pares.zip",
+                "parcelamento": "https://olimpiada.ic.unicamp.br/static/extras/obi2019/gabaritos/2019f3pj_parcelamento.zip",
+                "manchas": "https://olimpiada.ic.unicamp.br/static/extras/obi2019/gabaritos/2019f3pj_manchas.zip"
+            },
+            "P1": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2019/provas/ProvaOBI2019_f3p1.pdf",
+                "colecao": "https://olimpiada.ic.unicamp.br/static/extras/obi2019/gabaritos/2019f3p1_colecao.zip",
+                "linhas": "https://olimpiada.ic.unicamp.br/static/extras/obi2019/gabaritos/2019f3p1_linhas.zip",
+                "mesa": "https://olimpiada.ic.unicamp.br/static/extras/obi2019/gabaritos/2019f3p1_mesa.zip"
+            },
+            "P2": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2019/provas/ProvaOBI2019_f3p2.pdf",
+                "metro": "https://olimpiada.ic.unicamp.br/static/extras/obi2019/gabaritos/2019f3p2_metro.zip",
+                "exploracao": "https://olimpiada.ic.unicamp.br/static/extras/obi2019/gabaritos/2019f3p2_exploracao.zip",
+                "prix": "https://olimpiada.ic.unicamp.br/static/extras/obi2019/gabaritos/2019f3p2_prix.zip",
+                "etiquetas": "https://olimpiada.ic.unicamp.br/static/extras/obi2019/gabaritos/2019f3p2_etiquetas.zip"
+            },
+            "PU": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2019/provas/ProvaOBI2019_f3pu.pdf",
+                "xadrez": "https://olimpiada.ic.unicamp.br/static/extras/obi2019/gabaritos/2019f3pu_xadrez.zip",
+                "computador": "https://olimpiada.ic.unicamp.br/static/extras/obi2019/gabaritos/2019f3pu_computador.zip"
+            }
+        }
+    },
+    "2020": {
+        "fase1": {},
+        "fase2": {
+            "PJ": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2020/provas/ProvaOBI2020_f2pj.pdf",
+                "lesma": "https://olimpiada.ic.unicamp.br/static/extras/obi2020/gabaritos/2020f2pj_lesma.zip",
+                "cruzadas": "https://olimpiada.ic.unicamp.br/static/extras/obi2020/gabaritos/2020f2pj_cruzadas.zip",
+                "pinos": "https://olimpiada.ic.unicamp.br/static/extras/obi2020/gabaritos/2020f2pj_pinos.zip"
+            },
+            "P1": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2020/provas/ProvaOBI2020_f2p1.pdf",
+                "formiga": "https://olimpiada.ic.unicamp.br/static/extras/obi2020/gabaritos/2020f2p1_formiga.zip",
+                "formiga2": "https://olimpiada.ic.unicamp.br/static/extras/obi2020/gabaritos/2020f2p1_formiga2.zip",
+                "estrada": "https://olimpiada.ic.unicamp.br/static/extras/obi2020/gabaritos/2020f2p1_estrada.zip"
+            },
+            "P2": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2020/provas/ProvaOBI2020_f2p2.pdf",
+                "fotografia": "https://olimpiada.ic.unicamp.br/static/extras/obi2020/gabaritos/2020f2p2_fotografia.zip",
+                "quebra": "https://olimpiada.ic.unicamp.br/static/extras/obi2020/gabaritos/2020f2p2_quebra.zip"
+            },
+            "PU": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2020/provas/ProvaOBI2020_f2pu.pdf",
+                "caixeiro": "https://olimpiada.ic.unicamp.br/static/extras/obi2020/gabaritos/2020f2pu_caixeiro.zip"
+            }
+        },
+        "fase3": {
+            "PJ": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2020/provas/ProvaOBI2020_f3pj.pdf",
+                "calorias": "https://olimpiada.ic.unicamp.br/static/extras/obi2020/gabaritos/2020f3pj_calorias.zip",
+                "celular": "https://olimpiada.ic.unicamp.br/static/extras/obi2020/gabaritos/2020f3pj_celular.zip",
+                "atlanta": "https://olimpiada.ic.unicamp.br/static/extras/obi2020/gabaritos/2020f3pj_atlanta.zip",
+                "torre": "https://olimpiada.ic.unicamp.br/static/extras/obi2020/gabaritos/2020f3pj_torre.zip",
+                "torre2": "https://olimpiada.ic.unicamp.br/static/extras/obi2020/gabaritos/2020f3pj_torre2.zip"
+            },
+            "P2": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2020/provas/ProvaOBI2020_f3p2.pdf",
+                "candidatas": "https://olimpiada.ic.unicamp.br/static/extras/obi2020/gabaritos/2020f3p2_candidatas.zip"
+            },
+            "P1": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2020/provas/ProvaOBI2020_f3p1.pdf",
+                "rede": "https://olimpiada.ic.unicamp.br/static/extras/obi2020/gabaritos/2020f3p1_rede.zip",
+                "jogo": "https://olimpiada.ic.unicamp.br/static/extras/obi2020/gabaritos/2020f3p1_jogo.zip",
+                "trem": "https://olimpiada.ic.unicamp.br/static/extras/obi2020/gabaritos/2020f3p1_trem.zip"
+            },
+            "PU": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2020/provas/ProvaOBI2020_f3pu.pdf"
+            }
+        }
+    },
+    "2021": {
+        "fase1": {
+            "PJ": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2021/provas/ProvaOBI2021_f1pj.pdf",
+                "idade": "https://olimpiada.ic.unicamp.br/static/extras/obi2021/gabaritos/2021f1pj_idade.zip",
+                "plano": "https://olimpiada.ic.unicamp.br/static/extras/obi2021/gabaritos/2021f1pj_plano.zip",
+                "torneio": "https://olimpiada.ic.unicamp.br/static/extras/obi2021/gabaritos/2021f1pj_torneio.zip"
+            },
+            "P1": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2021/provas/ProvaOBI2021_f1p1.pdf",
+                "torneio": "https://olimpiada.ic.unicamp.br/static/extras/obi2021/gabaritos/2021f1p1_torneio.zip",
+                "tempo": "https://olimpiada.ic.unicamp.br/static/extras/obi2021/gabaritos/2021f1p1_tempo.zip",
+                "zero": "https://olimpiada.ic.unicamp.br/static/extras/obi2021/gabaritos/2021f1p1_zero.zip"
+            },
+            "P2": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2021/provas/ProvaOBI2021_f1p2.pdf",
+                "idade": "https://olimpiada.ic.unicamp.br/static/extras/obi2021/gabaritos/2021f1p2_idade.zip",
+                "zero": "https://olimpiada.ic.unicamp.br/static/extras/obi2021/gabaritos/2021f1p2_zero.zip",
+                "tempo": "https://olimpiada.ic.unicamp.br/static/extras/obi2021/gabaritos/2021f1p2_tempo.zip",
+                "cifra": "https://olimpiada.ic.unicamp.br/static/extras/obi2021/gabaritos/2021f1p2_cifra.zip"
+            }
+        },
+        "fase2": {
+            "PJ": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2021/provas/ProvaOBI2021_f2pj.pdf",
+                "tenis": "https://olimpiada.ic.unicamp.br/static/extras/obi2021/gabaritos/2021f2pj_tenis.zip",
+                "pangrama": "https://olimpiada.ic.unicamp.br/static/extras/obi2021/gabaritos/2021f2pj_pangrama.zip",
+                "robo": "https://olimpiada.ic.unicamp.br/static/extras/obi2021/gabaritos/2021f2pj_robo.zip",
+                "media": "https://olimpiada.ic.unicamp.br/static/extras/obi2021/gabaritos/2021f2pj_media.zip"
+            },
+            "P1": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2021/provas/ProvaOBI2021_f2p1.pdf",
+                "retangulo": "https://olimpiada.ic.unicamp.br/static/extras/obi2021/gabaritos/2021f2p1_retangulo.zip"
+            },
+            "P2": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2021/provas/ProvaOBI2021_f2p2.pdf",
+                "passatempo": "https://olimpiada.ic.unicamp.br/static/extras/obi2021/gabaritos/2021f2p2_passatempo.zip",
+                "sanduiche": "https://olimpiada.ic.unicamp.br/static/extras/obi2021/gabaritos/2021f2p2_sanduiche.zip"
+            }
+        },
+        "fase3": {
+            "PJ": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2021/provas/ProvaOBI2021_f3pj.pdf",
+                "ogro": "https://olimpiada.ic.unicamp.br/static/extras/obi2021/gabaritos/2021f3pj_ogro.zip",
+                "casamento": "https://olimpiada.ic.unicamp.br/static/extras/obi2021/gabaritos/2021f3pj_casamento.zip",
+                "sapo": "https://olimpiada.ic.unicamp.br/static/extras/obi2021/gabaritos/2021f3pj_sapo.zip",
+                "plano": "https://olimpiada.ic.unicamp.br/static/extras/obi2021/gabaritos/2021f3pj_plano.zip"
+            },
+            "P1": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2021/provas/ProvaOBI2021_f3p1.pdf",
+                "festa": "https://olimpiada.ic.unicamp.br/static/extras/obi2021/gabaritos/2021f3p1_festa.zip"
+            },
+            "P2": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2021/provas/ProvaOBI2021_f3p2.pdf",
+                "cubo": "https://olimpiada.ic.unicamp.br/static/extras/obi2021/gabaritos/2021f3p2_cubo.zip",
+                "falha": "https://olimpiada.ic.unicamp.br/static/extras/obi2021/gabaritos/2021f3p2_falha.zip",
+                "minhoca": "https://olimpiada.ic.unicamp.br/static/extras/obi2021/gabaritos/2021f3p2_minhoca.zip"
+            }
+        }
+    },
+    "2022": {
+        "fase1": {
+            "PJ": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2022/provas/ProvaOBI2022_f1pj.pdf",
+                "cinema": "https://olimpiada.ic.unicamp.br/static/extras/obi2022/gabaritos/2022f1pj_cinema.zip",
+                "hotel": "https://olimpiada.ic.unicamp.br/static/extras/obi2022/gabaritos/2022f1pj_hotel.zip",
+                "magico": "https://olimpiada.ic.unicamp.br/static/extras/obi2022/gabaritos/2022f1pj_magico.zip"
+            },
+            "P1": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2022/provas/ProvaOBI2022_f1p1.pdf",
+                "show": "https://olimpiada.ic.unicamp.br/static/extras/obi2022/gabaritos/2022f1p1_show.zip"
+            },
+            "P2": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2022/provas/ProvaOBI2022_f1p2.pdf",
+                "bombom": "https://olimpiada.ic.unicamp.br/static/extras/obi2022/gabaritos/2022f1p2_bombom.zip",
+                "maior": "https://olimpiada.ic.unicamp.br/static/extras/obi2022/gabaritos/2022f1p2_maior.zip",
+                "chuva": "https://olimpiada.ic.unicamp.br/static/extras/obi2022/gabaritos/2022f1p2_chuva.zip"
+            }
+        },
+        "fase2": {
+            "PJ": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2022/provas/ProvaOBI2022_f2pj.pdf",
+                "trofeu": "https://olimpiada.ic.unicamp.br/static/extras/obi2022/gabaritos/2022f2pj_trofeu.zip",
+                "caminho": "https://olimpiada.ic.unicamp.br/static/extras/obi2022/gabaritos/2022f2pj_caminho.zip",
+                "piramide": "https://olimpiada.ic.unicamp.br/static/extras/obi2022/gabaritos/2022f2pj_piramide.zip"
+            },
+            "P2": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2022/provas/ProvaOBI2022_f2p2.pdf",
+                "subcadeias": "https://olimpiada.ic.unicamp.br/static/extras/obi2022/gabaritos/2022f2p2_subcadeias.zip",
+                "viagem": "https://olimpiada.ic.unicamp.br/static/extras/obi2022/gabaritos/2022f2p2_viagem.zip"
+            },
+            "P1": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2022/provas/ProvaOBI2022_f2p1.pdf",
+                "tanque": "https://olimpiada.ic.unicamp.br/static/extras/obi2022/gabaritos/2022f2p1_tanque.zip",
+                "cameras": "https://olimpiada.ic.unicamp.br/static/extras/obi2022/gabaritos/2022f2p1_cameras.zip"
+            }
+        },
+        "fase3": {
+            "PJ": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2022/provas/ProvaOBI2022_f3pj.pdf",
+                "jogo": "https://olimpiada.ic.unicamp.br/static/extras/obi2022/gabaritos/2022f3pj_jogo.zip",
+                "teste": "https://olimpiada.ic.unicamp.br/static/extras/obi2022/gabaritos/2022f3pj_teste.zip",
+                "carro": "https://olimpiada.ic.unicamp.br/static/extras/obi2022/gabaritos/2022f3pj_carro.zip",
+                "digitos": "https://olimpiada.ic.unicamp.br/static/extras/obi2022/gabaritos/2022f3pj_digitos.zip"
+            },
+            "P1": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2022/provas/ProvaOBI2022_f3p1.pdf",
+                "pizza": "https://olimpiada.ic.unicamp.br/static/extras/obi2022/gabaritos/2022f3p1_pizza.zip",
+                "carro": "https://olimpiada.ic.unicamp.br/static/extras/obi2022/gabaritos/2022f3p1_carro.zip",
+                "digitos": "https://olimpiada.ic.unicamp.br/static/extras/obi2022/gabaritos/2022f3p1_digitos.zip",
+                "pilhas": "https://olimpiada.ic.unicamp.br/static/extras/obi2022/gabaritos/2022f3p1_pilhas.zip"
+            },
+            "P2": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2022/provas/ProvaOBI2022_f3p2.pdf",
+                "caravana": "https://olimpiada.ic.unicamp.br/static/extras/obi2022/gabaritos/2022f3p2_caravana.zip",
+                "digitos": "https://olimpiada.ic.unicamp.br/static/extras/obi2022/gabaritos/2022f3p2_digitos.zip",
+                "pilhas": "https://olimpiada.ic.unicamp.br/static/extras/obi2022/gabaritos/2022f3p2_pilhas.zip",
+                "minhoca": "https://olimpiada.ic.unicamp.br/static/extras/obi2022/gabaritos/2022f3p2_minhoca.zip",
+                "rodovia": "https://olimpiada.ic.unicamp.br/static/extras/obi2022/gabaritos/2022f3p2_rodovia.zip"
+            }
+        }
+    },
+    "2023": {
+        "fase1": {
+            "PJ": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2023/provas/ProvaOBI2023_f1pj.pdf",
+                "premio": "https://olimpiada.ic.unicamp.br/static/extras/obi2023/gabaritos/2023f1pj_premio.zip",
+                "epidemia": "https://olimpiada.ic.unicamp.br/static/extras/obi2023/gabaritos/2023f1pj_epidemia.zip",
+                "chinelos": "https://olimpiada.ic.unicamp.br/static/extras/obi2023/gabaritos/2023f1pj_chinelos.zip"
+            },
+            "P1": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2023/provas/ProvaOBI2023_f1p1.pdf",
+                "var": "https://olimpiada.ic.unicamp.br/static/extras/obi2023/gabaritos/2023f1p1_var.zip",
+                "estoque": "https://olimpiada.ic.unicamp.br/static/extras/obi2023/gabaritos/2023f1p1_estoque.zip",
+                "subsequencia": "https://olimpiada.ic.unicamp.br/static/extras/obi2023/gabaritos/2023f1p1_subsequencia.zip"
+            },
+            "P2": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2023/provas/ProvaOBI2023_f1p2.pdf",
+                "contas": "https://olimpiada.ic.unicamp.br/static/extras/obi2023/gabaritos/2023f1p2_contas.zip",
+                "leilao": "https://olimpiada.ic.unicamp.br/static/extras/obi2023/gabaritos/2023f1p2_leilao.zip",
+                "estoque": "https://olimpiada.ic.unicamp.br/static/extras/obi2023/gabaritos/2023f1p2_estoque.zip",
+                "toupeira": "https://olimpiada.ic.unicamp.br/static/extras/obi2023/gabaritos/2023f1p2_toupeira.zip"
+            }
+        },
+        "fase2": {
+            "PJ": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2023/provas/ProvaOBI2023_f2pj.pdf",
+                "pizza": "https://olimpiada.ic.unicamp.br/static/extras/obi2023/gabaritos/2023f2pj_pizza.zip",
+                "codigo": "https://olimpiada.ic.unicamp.br/static/extras/obi2023/gabaritos/2023f2pj_codigo.zip",
+                "grupos": "https://olimpiada.ic.unicamp.br/static/extras/obi2023/gabaritos/2023f2pj_grupos.zip"
+            },
+            "P1": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2023/provas/ProvaOBI2023_f2p1.pdf",
+                "prefixo": "https://olimpiada.ic.unicamp.br/static/extras/obi2023/gabaritos/2023f2p1_prefixo.zip",
+                "grupos": "https://olimpiada.ic.unicamp.br/static/extras/obi2023/gabaritos/2023f2p1_grupos.zip",
+                "distintos": "https://olimpiada.ic.unicamp.br/static/extras/obi2023/gabaritos/2023f2p1_distintos.zip"
+            },
+            "P2": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2023/provas/ProvaOBI2023_f2p2.pdf",
+                "codigo": "https://olimpiada.ic.unicamp.br/static/extras/obi2023/gabaritos/2023f2p2_codigo.zip",
+                "grupos": "https://olimpiada.ic.unicamp.br/static/extras/obi2023/gabaritos/2023f2p2_grupos.zip",
+                "distintos": "https://olimpiada.ic.unicamp.br/static/extras/obi2023/gabaritos/2023f2p2_distintos.zip",
+                "barcos": "https://olimpiada.ic.unicamp.br/static/extras/obi2023/gabaritos/2023f2p2_barcos.zip"
+            }
+        },
+        "fase3": {
+            "PJ": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2023/provas/ProvaOBI2023_f3pj.pdf",
+                "cabo": "https://olimpiada.ic.unicamp.br/static/extras/obi2023/gabaritos/2023f3pj_cabo.zip",
+                "tesouro": "https://olimpiada.ic.unicamp.br/static/extras/obi2023/gabaritos/2023f3pj_tesouro.zip",
+                "metronibus": "https://olimpiada.ic.unicamp.br/static/extras/obi2023/gabaritos/2023f3pj_metronibus.zip",
+                "mecanica": "https://olimpiada.ic.unicamp.br/static/extras/obi2023/gabaritos/2023f3pj_mecanica.zip"
+            },
+            "P1": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2023/provas/ProvaOBI2023_f3p1.pdf",
+                "domino": "https://olimpiada.ic.unicamp.br/static/extras/obi2023/gabaritos/2023f3p1_domino.zip"
+            },
+            "P2": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2023/provas/ProvaOBI2023_f3p2.pdf",
+                "piramide": "https://olimpiada.ic.unicamp.br/static/extras/obi2023/gabaritos/2023f3p2_piramide.zip",
+                "transportes": "https://olimpiada.ic.unicamp.br/static/extras/obi2023/gabaritos/2023f3p2_transportes.zip",
+                "bonecas": "https://olimpiada.ic.unicamp.br/static/extras/obi2023/gabaritos/2023f3p2_bonecas.zip",
+                "fastfood": "https://olimpiada.ic.unicamp.br/static/extras/obi2023/gabaritos/2023f3p2_fastfood.zip"
+            }
+        }
+    },
+    "2024": {
+        "fase1": {
+            "PJ": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2024/provas/ProvaOBI2024_f1pj.pdf",
+                "ogro": "https://olimpiada.ic.unicamp.br/static/extras/obi2024/gabaritos/2024f1pj_ogro.zip",
+                "concurso": "https://olimpiada.ic.unicamp.br/static/extras/obi2024/gabaritos/2024f1pj_concurso.zip",
+                "bacterias": "https://olimpiada.ic.unicamp.br/static/extras/obi2024/gabaritos/2024f1pj_bacterias.zip"
+            },
+            "P1": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2024/provas/ProvaOBI2024_f1p1.pdf",
+                "ogro": "https://olimpiada.ic.unicamp.br/static/extras/obi2024/gabaritos/2024f1p1_ogro.zip",
+                "relogio": "https://olimpiada.ic.unicamp.br/static/extras/obi2024/gabaritos/2024f1p1_relogio.zip",
+                "concurso": "https://olimpiada.ic.unicamp.br/static/extras/obi2024/gabaritos/2024f1p1_concurso.zip"
+            },
+            "P2": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2024/provas/ProvaOBI2024_f1p2.pdf",
+                "ogro": "https://olimpiada.ic.unicamp.br/static/extras/obi2024/gabaritos/2024f1p2_ogro.zip",
+                "relogio": "https://olimpiada.ic.unicamp.br/static/extras/obi2024/gabaritos/2024f1p2_relogio.zip",
+                "concurso": "https://olimpiada.ic.unicamp.br/static/extras/obi2024/gabaritos/2024f1p2_concurso.zip",
+                "jogo": "https://olimpiada.ic.unicamp.br/static/extras/obi2024/gabaritos/2024f1p2_jogo.zip"
+            }
+        },
+        "fase2": {
+            "PJ": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2024/provas/ProvaOBI2024_f2pj.pdf",
+                "avenida": "https://olimpiada.ic.unicamp.br/static/extras/obi2024/gabaritos/2024f2pj_avenida.zip",
+                "alfabeto": "https://olimpiada.ic.unicamp.br/static/extras/obi2024/gabaritos/2024f2pj_alfabeto.zip",
+                "atletismo": "https://olimpiada.ic.unicamp.br/static/extras/obi2024/gabaritos/2024f2pj_atletismo.zip"
+            },
+            "P1": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2024/provas/ProvaOBI2024_f2p1.pdf",
+                "danca": "https://olimpiada.ic.unicamp.br/static/extras/obi2024/gabaritos/2024f2p1_danca.zip",
+                "concatena": "https://olimpiada.ic.unicamp.br/static/extras/obi2024/gabaritos/2024f2p1_concatena.zip"
+            },
+            "P2": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2024/provas/ProvaOBI2024_f2p2.pdf",
+                "cubo": "https://olimpiada.ic.unicamp.br/static/extras/obi2024/gabaritos/2024f2p2_cubo.zip",
+                "poder": "https://olimpiada.ic.unicamp.br/static/extras/obi2024/gabaritos/2024f2p2_poder.zip"
+            }
+        },
+        "fase3": {
+            "PJ": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2024/provas/ProvaOBI2024_f3pj.pdf",
+                "cadeado": "https://olimpiada.ic.unicamp.br/static/extras/obi2024/gabaritos/2024f3pj_cadeado.zip",
+                "amigos": "https://olimpiada.ic.unicamp.br/static/extras/obi2024/gabaritos/2024f3pj_amigos.zip",
+                "entrevistas": "https://olimpiada.ic.unicamp.br/static/extras/obi2024/gabaritos/2024f3pj_entrevistas.zip",
+                "hotel": "https://olimpiada.ic.unicamp.br/static/extras/obi2024/gabaritos/2024f3pj_hotel.zip"
+            },
+            "P1": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2024/provas/ProvaOBI2024_f3p1.pdf",
+                "musical": "https://olimpiada.ic.unicamp.br/static/extras/obi2024/gabaritos/2024f3p1_musical.zip",
+                "entrevistas": "https://olimpiada.ic.unicamp.br/static/extras/obi2024/gabaritos/2024f3p1_entrevistas.zip",
+                "hotel": "https://olimpiada.ic.unicamp.br/static/extras/obi2024/gabaritos/2024f3p1_hotel.zip",
+                "brigadeiros": "https://olimpiada.ic.unicamp.br/static/extras/obi2024/gabaritos/2024f3p1_brigadeiros.zip"
+            },
+            "P2": {
+                "pdf": "https://olimpiada.ic.unicamp.br/static/extras/obi2024/provas/ProvaOBI2024_f3p2.pdf",
+                "brigadeiros": "https://olimpiada.ic.unicamp.br/static/extras/obi2024/gabaritos/2024f3p2_brigadeiros.zip",
+                "construtora": "https://olimpiada.ic.unicamp.br/static/extras/obi2024/gabaritos/2024f3p2_construtora.zip",
+                "retas": "https://olimpiada.ic.unicamp.br/static/extras/obi2024/gabaritos/2024f3p2_retas.zip",
+                "burocracia": "https://olimpiada.ic.unicamp.br/static/extras/obi2024/gabaritos/2024f3p2_burocracia.zip",
+                "pratos": "https://olimpiada.ic.unicamp.br/static/extras/obi2024/gabaritos/2024f3p2_pratos.zip"
+            }
+        }
+    }
+}
