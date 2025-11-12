@@ -45,61 +45,85 @@
 <div id="results" style="margin-top: 20px;"></div>
 
 <script>
-
-const zip_url = "{{ zip_url }}"
-
-const JUDGE0_URL = "https://judge.darlon.com.br";
+const zip_url = "{{ zip_url }}";
+const JUDGE0_URL = "{{ JUDGE_URL }}";
 
 const toBase64 = str => btoa(unescape(encodeURIComponent(str)));
 const fromBase64 = str => decodeURIComponent(escape(atob(str)));
 
 const languageIds = {
-        py: 71,   // Python 2.7.17
-        c: 50,    // Basic (FBC 1.07.1)
-        cpp: 76,  // C++ (Clang 7.0.1)
-        java: 62, // Java (OpenJDK 13.0.1)
-        pas: 67,  // Pascal (FPC 3.0.4)
-        js: 63    // JavaScript (Node.js 12.14.0)
+  py: 71,
+  c: 50,
+  cpp: 54,
+  java: 62,
+  pas: 67,
+  js: 63
+};
+
+async function enviarCodigo() {
+  const codigo = document.getElementById('codigo').value.trim();
+  const limiteTempo = Number(document.getElementById('limiteTempo').value);
+  const limiteMemoria = Number(document.getElementById('limiteMemoria').value);
+  const linguagem = document.getElementById('language').value;
+
+  if (!linguagem) return alert("Por favor, selecione uma linguagem!");
+  if (!codigo) return alert("Por favor, insira o código!");
+  if (isNaN(limiteTempo) || isNaN(limiteMemoria))
+    return alert("Limites inválidos!");
+
+  const resultsDiv = document.getElementById("results");
+  resultsDiv.innerHTML = `<h3>Baixando casos de teste... ${zip_url}</h3>`;
+
+  const response = await fetch(`/api/get_test_cases/{{ ano }}/{{ fase }}/{{ nivel }}/{{ problema }}`);
+  if (!response.ok) return alert("Erro ao obter casos de teste.");
+
+  const data = await response.json();
+  let passed = 0;
+
+  for (const i in data["files"]) {
+    const input = data["files"][i].input;
+    const expected = data["files"][i].output;
+
+    const payload = {
+      source_code: toBase64(codigo),
+      stdin: toBase64(input),
+      language_id: languageIds[linguagem],
+      base64_encoded: true,
+      wait: true
     };
 
-function enviarCodigo() {
-    const codigo = document.getElementById('codigo').value.trim();
-    const limiteTempo = Number(document.getElementById('limiteTempo').value);
-    const limiteMemoria = Number(document.getElementById('limiteMemoria').value);
-    const linguagem = document.getElementById('language').value;
+    console.log(JUDGE0_URL);
 
-    if (!linguagem) {
-        alert("Por favor, insira uma linguagem antes de enviar!");
-        return;
-    }
+    const res = await fetch(`${JUDGE0_URL}/submissions?base64_encoded=true&wait=true`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload)
+    });
 
-    if (!codigo) {
-        alert("Por favor, insira o código antes de enviar!");
-        return;
-    }
+    const result = await res.json();
+    const output = fromBase64(result.stdout || "").trim();
+    const expectedTrimmed = expected.trim();
 
-    if (
-        isNaN(limiteTempo) || isNaN(limiteMemoria) ||
-        limiteTempo < 1 || limiteTempo > 10 ||
-        limiteMemoria < 16 || limiteMemoria > 1024
-    ) {
-        alert("Os limites devem estar entre 1–10 segundos e 16–1024 MB!");
-        return;
-    }
+    let status = "Wrong Answer";
+    if (output === expectedTrimmed) {
+      status = "Accepted";
+      passed++;
+    } else if (result.stderr) status = "Runtime Error";
+    else if (result.compile_output) status = "Compilation Error";
 
-    const tempoInput = document.getElementById('limiteTempo');
-    const memoriaInput = document.getElementById('limiteMemoria');
-    tempoInput.value = Math.max(1, Math.min(limiteTempo, 10));
-    memoriaInput.value = Math.max(16, Math.min(limiteMemoria, 1024));
+    const caseDiv = document.createElement("div");
+    caseDiv.innerHTML = `
+      <b>Teste ${Number(i) + 1}:</b><br>
+      <i>Status:</i> ${status}<br>
+      <i>Esperado:</i> <pre>${expectedTrimmed}</pre>
+      <i>Obtido:</i> <pre>${output}</pre>
+      <hr>
+    `;
+    resultsDiv.appendChild(caseDiv);
+  }
 
-    // (opcional) registrar no servidor
-    alert("Código enviado com sucesso!\n" +
-          "Tempo: " + tempoInput.value + "s\n" +
-          "Memória: " + memoriaInput.value + "MB");
-
-    const resultsDiv = document.getElementById("results");
-    resultsDiv.innerHTML = "<h3>Baixando e testando..." + zip_url + "</h3>";
-    
+  resultsDiv.innerHTML += `<h4>${passed}/${data["files"].length} casos aceitos ✅</h4>`;
 }
 </script>
+
 {% endblock %}

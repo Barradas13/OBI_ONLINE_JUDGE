@@ -6,6 +6,7 @@ import requests
 import zipfile
 import io
 
+
 app = Flask(__name__)
 
 JSON = {}
@@ -30,8 +31,62 @@ def ir_para_problema(ano, fase, nivel, problema):
     return render_template(
         "problems.html",
         ano=ano, fase=fase, nivel=nivel, problema=problema,
-        pdf_url=pdf_url, zip_url=zip_url
+        pdf_url=pdf_url, zip_url=zip_url, JUDGE_URL="https://judge.darlon.com.br"
     )
+
+import re
+from pathlib import Path
+
+import re
+from pathlib import Path
+from collections import defaultdict
+
+def organize_test_files(paths: list[str]) -> list[str]:
+    """
+    Ordena e agrupa arquivos de testes (.in/.out/.sol ou entrada/saida)
+    em formato compacto, como:
+        .../teste1/1in, .../teste1/1out, .../teste1/2in, .../teste1/2out
+    """
+    # === Função auxiliar para extrair chave de agrupamento ===
+    def extract_info(p: str):
+        path = Path(p)
+        name = path.name.lower()
+
+        # tenta extrair números no caminho
+        nums = [int(n) for n in re.findall(r'\d+', str(path))]
+        test_num = nums[0] if nums else -1
+        file_num = nums[-1] if nums else -1
+
+        # tipo do arquivo (entrada, saída ou outro)
+        if any(k in name for k in ["in", "entrada", ".in"]):
+            io_type = "in"
+        elif any(k in name for k in ["out", "saida", ".sol", ".out"]):
+            io_type = "out"
+        else:
+            io_type = "?"
+
+        return test_num, file_num, io_type, str(path)
+
+    # === Agrupa por pasta base do teste ===
+    groups = defaultdict(list)
+    for p in paths:
+        if p.endswith('/'):
+            continue
+        info = extract_info(p)
+        parent = str(Path(p).parent)
+        groups[parent].append(info)
+
+    # === Ordena e monta a lista final ===
+    final = []
+    for parent, items in sorted(groups.items()):
+        # ordena por número de arquivo e tipo (in antes de out)
+        items.sort(key=lambda x: (x[1], 0 if x[2] == "in" else 1))
+        for _, _, _, fullpath in items:
+            final.append(fullpath)
+
+    return final
+
+
 
 
 @app.route("/api/get_test_cases/<ano>/<fase>/<nivel>/<problema>")
@@ -55,31 +110,20 @@ def get_test_cases(ano, fase, nivel, problema):
         
         test_cases = {}
 
-        for file_name in files_list:
+        sorted_files = organize_test_files(files_list)
 
-            print(f"Processing file: {file_name}")
+        j = 0
 
-            
-            if not file_name.endswith('/'):
-                folder = file_name.split('/')[1]
+        for i in range(0, len(sorted_files), 2):
+            file_in = sorted_files[i]
+            file_out = sorted_files[i + 1]
 
-                test_cases[folder] = test_cases.get(folder, {})
-                print(f"Processing file: {file_name}")
+            test_cases[j] = {
+                "input": zip_file.read(file_in).decode('utf-8'),
+                "output": zip_file.read(file_out).decode('utf-8'),
+            }
 
-                match = re.search(r'\d+', file_name.split('/')[2])
-
-                if match:
-                    case_number = int(match.group())
-
-                    test_cases[folder][case_number] = test_cases[folder].get(case_number, {})
-
-                    print(f"Processing number: {case_number}")
-
-
-                else:
-                    case_number = -1
-                    test_cases[folder][case_number] = test_cases[folder].get(case_number, {})
-
+            j+= 1
 
         return jsonify({
             "success": True,
